@@ -1,42 +1,56 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import React from "react"
+import { Link } from "gatsby"
+import Image1 from "../images/1.jpg"
+import Image2 from "../images/2.jpg"
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
-  </header>
-)
 
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
+const Header = () => {
+    const elements = [
+        {
+            title: "Home",
+            image: Image1,
+            path: "/",
+        },
+        {
+            title: "About Me",
+            image: Image2,
+            path: "/about-me",
+        },
+        {
+            title: "Contact Me",
+            image: Image2,
+            path: "/contact-me",
+        },
+    ]
 
-Header.defaultProps = {
-  siteTitle: ``,
+    const menuItems = []
+
+    for (const [index, value] of elements.entries()) {
+        menuItems.push(
+            <div className="menu__item">
+                <Link to={value.path} className="menu__item-link">{value.title}</Link>
+                <img className="menu__item-img" src={value.image} alt="Some"/>
+                <div className="marquee">
+                    <div className="marquee__inner" aria-hidden="true">
+                        <span>{value.title}</span>
+                        <span>{value.title}</span>
+                        <span>{value.title}</span>
+                        <span>{value.title}</span>
+                    </div>
+                </div>
+            </div>
+        )
+    }
+
+    return (
+        <header className="demo-1">
+            <main>
+                <nav className="menu">
+                    {menuItems}
+                </nav>
+            </main>
+        </header>
+    )
 }
 
 export default Header
