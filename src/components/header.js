@@ -3,7 +3,7 @@ import {Link} from "gatsby"
 import TopBar from "./topbar"
 import IconSocial from "./IconSocial"
 
-import Image1 from "../images/1.jpg"
+import Image1 from "../images/home.jpg"
 import Image2 from "../images/2.jpg"
 import Image3 from "../images/3.jpg"
 

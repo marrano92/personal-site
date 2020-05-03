@@ -52,6 +52,15 @@
 	.icon-facebook svg {
 		fill: $greySite;
 	}
+	.icon-codepain svg {
+		fill: $greySite;
+		margin-bottom: -8px;
+	}
+	.icon-curriculum svg {
+		fill: $greySite;
+		margin-bottom: -8px;
+	}
+	
 	.icon-github svg:hover{
 		fill: #f3f3f3;
 	}
@@ -59,6 +68,12 @@
 		fill: #f3f3f3;
 	}
 	.icon-facebook svg:hover {
+		fill: #f3f3f3;
+	}
+	.icon-codepain svg:hover {
+		fill: #f3f3f3;
+	}
+	.icon-curriculum svg:hover {
 		fill: #f3f3f3;
 	}
 }

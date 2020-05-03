@@ -97,8 +97,8 @@ a:focus {
 .menu__item-img {
 	pointer-events: none;
 	position: absolute;
-	height: 50vh;
-	max-height: 400px;
+	width: 80vh;
+	max-width: 1200px;
 	opacity: 0;
 	left: 100%;
 	top: 50%;
@@ -106,8 +106,8 @@ a:focus {
 }
 
 .menu__item-link:hover + .menu__item-img {
-	opacity: 0.6;
-	transform: translate3d(calc(-100% - 6vw),-30%,0) rotate3d(0,0,1,4deg);
+	opacity: 0.4;
+	transform: translate3d(calc(-100% - 6vw), -26%, 0) rotate3d(0, 0, 1, 10deg);
 	transition: all 0.4s;
 }
 
@@ -120,7 +120,6 @@ a:focus {
 	width: 100%;
 	overflow: hidden;
 	pointer-events: none;
-	mix-blend-mode: color-burn;
 }
 
 .marquee__inner {
