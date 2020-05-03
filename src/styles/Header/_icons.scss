@@ -1,0 +1,64 @@
+@import "../variable";
+
+/* Social Icons Styles */
+.social-icons {
+	text-align: center;
+	margin-left: -10px;
+}
+
+.icon {
+	display: inline-block;
+	height: 55px;
+	width: 55px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin: 0px 15px;
+}
+
+.icon:hover {
+	cursor: pointer;
+}
+
+.icon,
+.icon:hover {
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease;
+}
+
+.social-icons.filter .icon {
+	-webkit-filter: grayscale(1);
+	-moz-filter: grayscale(1);
+	-ms-filter: grayscale(1); /* Just in Case IE provides it with prefix. */
+	filter: grayscale(1);
+}
+
+.social-icons.filter .icon:hover {
+	-webkit-filter: grayscale(0);
+	-moz-filter: grayscale(0);
+	-ms-filter: grayscale(0); /* Just in Case IE provides it with prefix. */
+	filter: grayscale(0);
+}
+
+.social-icons.filter {
+	.icon-github svg{
+		fill: $greySite;
+	}
+	.icon-linkedin svg {
+		fill: $greySite;
+	}
+	.icon-facebook svg {
+		fill: $greySite;
+	}
+	.icon-github svg:hover{
+		fill: #f3f3f3;
+	}
+	.icon-linkedin svg:hover {
+		fill: #f3f3f3;
+	}
+	.icon-facebook svg:hover {
+		fill: #f3f3f3;
+	}
+}

@@ -1,7 +1,11 @@
 import React from "react"
-import { Link } from "gatsby"
+import {Link} from "gatsby"
+import TopBar from "./topbar"
+import IconSocial from "./IconSocial"
+
 import Image1 from "../images/1.jpg"
 import Image2 from "../images/2.jpg"
+import Image3 from "../images/3.jpg"
 
 
 const Header = () => {
@@ -18,7 +22,7 @@ const Header = () => {
         },
         {
             title: "Contact Me",
-            image: Image2,
+            image: Image3,
             path: "/contact-me",
         },
     ]
@@ -45,9 +49,11 @@ const Header = () => {
     return (
         <header className="demo-1">
             <main>
-                <nav className="menu">
+                <TopBar/>
+                <nav className="menu container">
                     {menuItems}
                 </nav>
+                <IconSocial/>
             </main>
         </header>
     )

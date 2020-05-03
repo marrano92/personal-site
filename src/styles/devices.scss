@@ -2,13 +2,16 @@
 @media only screen
 and (min-width : 1224px) {
 	/* STYLES GO HERE */
-}
-
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 480px) {
-	/* STYLES GO HERE */
+	.container{
+		max-width: 80%;
+	}
+	.logoMenu {
+		left: 40px;
+		top: 40px;
+	}
+	.appHeader {
+		padding-top: 40px;
+	}
 }
 
 /* Smartphones (landscape) ----------- */
@@ -28,7 +31,6 @@ and (max-width : 320px) {
 @media only screen
 and (min-device-width : 768px)
 and (max-device-width : 1024px) {
-	/* STYLES GO HERE */
 }
 
 /* iPads (landscape) ----------- */
@@ -36,7 +38,6 @@ and (max-device-width : 1024px) {
 and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : landscape) {
-	/* STYLES GO HERE */
 }
 
 /* iPads (portrait) ----------- */
@@ -44,20 +45,42 @@ and (orientation : landscape) {
 and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : portrait) {
-	/* STYLES GO HERE */
+	.logoMenu {
+		left: 20px;
+		top: 40px;
+	}
+	.homeLink {
+		padding-left: 30px;
+	}
 }
 
 /* Large screens ----------- */
 @media only screen
 and (min-width : 1824px) {
-	/* STYLES GO HERE */
+	.container{
+		max-width: 1400px;
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
 
 /* iPhone 5 (portrait &amp; landscape)----------- */
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 568px) {
-	/* STYLES GO HERE */
+	.container{
+		max-width: 90%;
+	}
+	.logoMenu {
+		left: 20px;
+		top: 20px;
+	}
+	.appHeader {
+		height: 100px;
+		padding-left: 80px;
+		padding-right: 20px;
+		padding-top: 10px;
+	}
 }
 
 /* iPhone 5 (landscape)----------- */
@@ -75,5 +98,32 @@ and (max-device-width : 568px)
 and (orientation : portrait) {
 	.menu__item {
 		margin-bottom: 5%;
+	}
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 900px)
+and (max-device-height : 380px) {
+	.homeLink {
+		visibility: hidden;
+	}
+	.logoMenu {
+		left: 0px;
+		top: 0px;
+	}
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+	.homeLink {
+		visibility: hidden;
+	}
+	.logoMenu {
+		left: 0px;
+		top: 0px;
 	}
 }
