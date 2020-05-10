@@ -63,12 +63,12 @@ a:focus {
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
-	padding: 10vh 0 25vh;
+	padding: 10vh 0 10vh;
 	--marquee-width: 100vw;
 	--offset: 20vw;
 	--move-initial: calc(-25% + var(--offset));
 	--move-final: calc(-50% + var(--offset));
-	--item-font-size: 10vw;
+	--item-font-size: 8vw;
 	counter-reset: menu;
 }
 
@@ -103,8 +103,17 @@ a:focus {
 	left: 100%;
 	top: 50%;
 	transform: translate3d(calc(-100% - 6vw),-30%,0) translate3d(0,20px,0);
+	z-index: -1;
 }
-
+.imageMenuBottom{
+	top: -200%;
+}
+.imageMenuMiddle{
+	top: -130%;
+}
+.imageMenuTop{
+	top: -80%;
+}
 .menu__item-link:hover + .menu__item-img {
 	opacity: 0.4;
 	transform: translate3d(calc(-100% - 6vw), -26%, 0) rotate3d(0, 0, 1, 10deg);

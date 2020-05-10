@@ -21,9 +21,18 @@ and (min-width : 321px) {
 
 /* Smartphones (portrait) ----------- */
 @media only screen
-and (max-width : 320px) {
+and (max-width : 375px) {
 	.menu__item {
 		margin-bottom: 5%;
+	}
+
+}
+
+/* small devices (portrait) ----------- */
+@media only screen
+and (max-device-width : 1024px) {
+	.menu__item-img {
+		width: 50vh;
 	}
 }
 
@@ -125,5 +134,10 @@ and (max-device-width : 480px) {
 	.logoMenu {
 		left: 0px;
 		top: 0px;
+	}
+	.icon {
+		height: 35px;
+		width: 35px;
+		margin: 0px 10px;
 	}
 }
