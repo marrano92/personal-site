@@ -4,10 +4,10 @@ import {Link} from "gatsby"
 const Topbar = () => {
     return (
         <div className="appHeader">
-            <Link to="/" className="logoMenu">
+            <Link to="/" className="logoMenu animate__animated animate__fadeIn">
                 AM
             </Link>
-            <div className="container">
+            <div className="container topBar">
                 <Link to="/" className="homeLink">
                    Andrea Marrano
                 </Link>

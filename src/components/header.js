@@ -63,9 +63,9 @@ const Header = () => {
     }
 
     return (
-        <header className="demo-1 is-none">
+        <header className="demo-1">
             <main>
-                <div className="menuDiv animate__animated animate__fadeInDown">
+                <div className="menuDiv animate__animated animate__fadeInDown is-none">
                     <nav className="menu container">
                         {menuItems}
                     </nav>

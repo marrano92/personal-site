@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
 
-$heightNavIcon: 45px;
-$positionHamburgerLine1: 11px;
-$positionHamburgerLine2: $heightNavIcon / 2;
-$positionHamburgerLine3: 33px;
-
 /* Grainy texture animation by Geoff Graham https://css-tricks.com/snippets/css/animated-grainy-texture/ */
 @keyframes grain {
 	0%, 100% {
@@ -113,24 +108,28 @@ a:focus {
 	z-index: 1;
 }
 
+.logoMenu{
+
+}
+
 .menu__item:nth-child(1) {
-	animation-delay: 1s;
+	animation-delay: 0.5s;
 }
 
 .menu__item:nth-child(2) {
-	animation-delay: 1.5s;
+	animation-delay: 1s;
 }
 
 .menu__item:nth-child(3) {
-	animation-delay: 2s;
+	animation-delay: 1.5s;
 }
 
 .menu__item:nth-child(4) {
-	animation-delay: 2.5s;
+	animation-delay: 2s;
 }
 
 .menu__item:nth-child(5) {
-	animation-delay: 3s;
+	animation-delay: 2.5s;
 }
 
 .menu__item-link {
@@ -351,10 +350,10 @@ a:focus {
 	-moz-transform: rotate(0deg);
 	-o-transform: rotate(0deg);
 	transform: rotate(0deg);
-	-webkit-transition: .50s ease-in-out;
-	-moz-transition: .50s ease-in-out;
-	-o-transition: .50s ease-in-out;
-	transition: .50s ease-in-out;
+	-webkit-transition: .25s ease-in-out;
+	-moz-transition: .25s ease-in-out;
+	-o-transition: .25s ease-in-out;
+	transition: .25s ease-in-out;
 }
 
 #nav-icon span:nth-child(1) {

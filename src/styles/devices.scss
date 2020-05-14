@@ -1,9 +1,8 @@
 /* Desktops and laptops ----------- */
-@media only screen
-and (min-width : 1224px) {
+@media only screen and (min-width: 1224px) {
 	/* STYLES GO HERE */
-	.container{
-		max-width: 80%;
+	.container {
+		max-width: 85%;
 	}
 	.logoMenu {
 		left: 40px;
@@ -15,48 +14,55 @@ and (min-width : 1224px) {
 }
 
 /* Smartphones (landscape) ----------- */
-@media only screen
-and (min-width : 321px) {
+@media only screen and (min-width: 321px) {
 }
 
 /* Smartphones (portrait) ----------- */
-@media only screen
-and (max-width : 375px) {
+@media only screen and (max-width: 375px) {
 	.menu__item {
 		margin-bottom: 5%;
 	}
-
+	
 }
 
 /* small devices (portrait) ----------- */
-@media only screen
-and (max-device-width : 1024px) {
+@media only screen and (max-device-width: 1024px) {
 	.menu__item-img {
 		width: 50vh;
+	}
+	.container {
+		max-width: 80%;
+	}
+	.topBar{
+		margin-left: 80px;
+		margin-right: 20px;
+		max-width: 100%;
+	}
+	.appHeader {
+		padding-top: 20px;
+	}
+	.logoMenu {
+		left: 20px;
+		top: 20px;
+	}
+	.homeLink {
+		padding-left: 15px;
 	}
 }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
 }
 
 /* iPads (landscape) ----------- */
-@media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px)
-and (orientation : landscape) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
 }
 
 /* iPads (portrait) ----------- */
-@media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px)
-and (orientation : portrait) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
 	.logoMenu {
 		left: 20px;
-		top: 40px;
+		top: 20px;
 	}
 	.homeLink {
 		padding-left: 30px;
@@ -64,9 +70,8 @@ and (orientation : portrait) {
 }
 
 /* Large screens ----------- */
-@media only screen
-and (min-width : 1824px) {
-	.container{
+@media only screen and (min-width: 1824px) {
+	.container {
 		max-width: 1400px;
 		margin-left: auto;
 		margin-right: auto;
@@ -74,11 +79,14 @@ and (min-width : 1824px) {
 }
 
 /* iPhone 5 (portrait &amp; landscape)----------- */
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 568px) {
-	.container{
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+	.container {
 		max-width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.topBar{
+		height: 60px;
 	}
 	.logoMenu {
 		left: 20px;
@@ -86,54 +94,51 @@ and (max-device-width : 568px) {
 	}
 	.appHeader {
 		height: 100px;
-		padding-left: 80px;
-		padding-right: 20px;
 		padding-top: 10px;
 	}
 }
 
 /* iPhone 5 (landscape)----------- */
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 568px)
-and (orientation : landscape) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: landscape) {
 	/* STYLES GO HERE */
 }
 
 /* iPhone 5 (portrait)----------- */
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 568px)
-and (orientation : portrait) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) {
 	.menu__item {
 		margin-bottom: 5%;
 	}
 }
 
 /* Smartphones (landscape) ----------- */
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 900px)
-and (max-device-height : 380px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 900px) and (max-device-height: 380px) {
 	.homeLink {
-		visibility: hidden;
+		display: none;
 	}
 	.logoMenu {
-		left: 0px;
-		top: 0px;
+		left: 11px;
+		top: 11px;
+	}
+	.appHeader {
+		padding-top: 11px;
+	}
+	#nav-icon {
+		margin-top: 0px;
 	}
 }
 
 /* Smartphones (portrait) ----------- */
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 480px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
 	.homeLink {
-		visibility: hidden;
+		display: none;
 	}
 	.logoMenu {
-		left: 0px;
-		top: 0px;
+		left: 11px;
+		top: 11px;
+	}
+	#nav-icon {
+		margin-top: var(--marginTop);
+		--marginTop: calc((60px - (45px - (45px / 100))) / 2);
 	}
 	.icon {
 		height: 35px;

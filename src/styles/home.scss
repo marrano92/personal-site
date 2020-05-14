@@ -1,0 +1,28 @@
+.titleIntro{
+	font-family: Droid Serif, Georgia, serif;
+	color: white;
+	height: $heightIntroLetter * 2;
+	padding: 100px 0px;
+}
+
+.rowTitle {
+	float: left;
+	clear: both;
+	position: relative;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+.letterWrapper {
+	float: left;
+	position: relative;
+}
+
+.letter {
+	font-size: 195px;
+	line-height: $heightIntroLetter;
+	font-weight: 900;
+	letter-spacing: -12px;
+	text-shadow: -20px 10px 10px rgba(0, 0, 0, 0.3),
+	0 20px 50px rgba(0, 0, 0, 0.3);
+}
