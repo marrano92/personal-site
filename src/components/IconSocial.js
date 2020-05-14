@@ -4,7 +4,7 @@ const IconSocial = () => {
     return (
         <div>
             <ul className="social-icons filter">
-                <li className="icon icon-linkedin">
+                <li className="icon icon-linkedin animate__animated animate__fadeInUp">
                     <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100%" height="100%"
                          viewBox="0 0 172 172">
                         <g fillRule="nonzero" stroke="none" strokeWidth={1} strokeLinecap="butt"
@@ -18,7 +18,7 @@ const IconSocial = () => {
                         </g>
                     </svg>
                 </li>
-                <li className="icon icon-github">
+                <li className="icon icon-github animate__animated animate__fadeInUp">
                     <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"
                          x="0px" y="0px" width="100%" height="100%" viewBox="0 0 1000 1000"
                          enableBackground="new 0 0 1000 1000"
@@ -32,7 +32,7 @@ const IconSocial = () => {
                         </g>
                     </svg>
                 </li>
-                <li className="icon icon-facebook">
+                <li className="icon icon-facebook animate__animated animate__fadeInUp">
                     <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="90%" height="90%"
                          viewBox="0 0 172 172">
                         <g fillRule="nonzero" stroke="none" strokeWidth={1} strokeLinecap="butt"
@@ -46,7 +46,7 @@ const IconSocial = () => {
                         </g>
                     </svg>
                 </li>
-                <li className="icon icon-codepain">
+                <li className="icon icon-codepain animate__animated animate__fadeInUp">
                     <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="110%" height="110%"
                          viewBox="0 0 172 172">
                         <g fillRule="nonzero" stroke="none" strokeWidth={1} strokeLinecap="butt"
@@ -66,7 +66,7 @@ const IconSocial = () => {
                         </g>
                     </svg>
                 </li>
-                <li className="icon icon-curriculum">
+                <li className="icon icon-curriculum animate__animated animate__fadeInUp">
                     <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"  width="110%" height="110%" viewBox="0 0 172 172">
                         <g fillRule="nonzero" stroke="none" strokeWidth={1} strokeLinecap="butt"
                            strokeLinejoin="miter" strokeMiterlimit={10} strokeDasharray strokeDashoffset={0}

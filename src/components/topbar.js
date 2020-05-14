@@ -11,6 +11,11 @@ const Topbar = () => {
                 <Link to="/" className="homeLink">
                    Andrea Marrano
                 </Link>
+                <div id="nav-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </div>
         </div>
     )

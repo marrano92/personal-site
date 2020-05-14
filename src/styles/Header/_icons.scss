@@ -45,20 +45,57 @@
 .social-icons.filter {
 	.icon-github svg{
 		fill: $greySite;
+		animation-delay: 6s;
 	}
 	.icon-linkedin svg {
 		fill: $greySite;
+		animation-delay: 3.7s;
 	}
 	.icon-facebook svg {
 		fill: $greySite;
+		animation-delay: 3.9s;
 	}
 	.icon-codepain svg {
 		fill: $greySite;
 		margin-bottom: -8px;
+		animation-delay: 4.1s;
 	}
 	.icon-curriculum svg {
 		fill: $greySite;
 		margin-bottom: -8px;
+		animation-delay: 4.3s;
+	}
+	
+	.icon-github {
+		animation-delay: 3.5s;
+	}
+	.icon-linkedin {
+		animation-delay: 3.7s;
+	}
+	.icon-facebook {
+		animation-delay: 3.9s;
+	}
+	.icon-codepain {
+		animation-delay: 4.1s;
+	}
+	.icon-curriculum {
+		animation-delay: 4.3s;
+	}
+	
+	.icon-github svg:hover{
+		fill: #f3f3f3;
+	}
+	.icon-linkedin svg:hover {
+		fill: #f3f3f3;
+	}
+	.icon-facebook svg:hover {
+		fill: #f3f3f3;
+	}
+	.icon-codepain svg:hover {
+		fill: #f3f3f3;
+	}
+	.icon-curriculum svg:hover {
+		fill: #f3f3f3;
 	}
 	
 	.icon-github svg:hover{
