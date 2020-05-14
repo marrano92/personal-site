@@ -3,11 +3,11 @@ import {Link} from "gatsby"
 import TopBar from "./topbar"
 import IconSocial from "./IconSocial"
 
-import Image1 from "../images/home.jpg"
-import ImageAbout from "../images/about.jpg"
-import ImageSkills from "../images/skill.jpg"
-import ImageProject from "../images/projects.jpg"
-import ImageContact from "../images/contact.jpg"
+import Image1 from "../images/home.webp"
+import ImageAbout from "../images/about.webp"
+import ImageSkills from "../images/skill.webp"
+import ImageProject from "../images/projects.webp"
+import ImageContact from "../images/contact.webp"
 
 const Header = () => {
     const elements = [
@@ -63,7 +63,7 @@ const Header = () => {
     }
 
     return (
-        <header className="demo-1">
+        <header className="demo-1 is-none">
             <main>
                 <div className="menuDiv animate__animated animate__fadeInDown">
                     <nav className="menu container">

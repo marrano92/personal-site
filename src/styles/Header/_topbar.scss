@@ -3,7 +3,7 @@
 $heightNavIcon: 45px;
 $positionHamburgerLine1: 11px;
 $positionHamburgerLine2: $heightNavIcon / 2;
-$positionHamburgerLine3: 35px;
+$positionHamburgerLine3: 33px;
 
 /* Grainy texture animation by Geoff Graham https://css-tricks.com/snippets/css/animated-grainy-texture/ */
 @keyframes grain {
@@ -319,7 +319,7 @@ a:focus {
 /* Icon 1 */
 
 #nav-icon {
-	width: 50px;
+	width: 40px;
 	height: $heightNavIcon;
 	margin-top: var(--marginTop);
 	position: relative;
@@ -386,8 +386,8 @@ a:focus {
 	-moz-transform: rotate(45deg);
 	-o-transform: rotate(45deg);
 	transform: rotate(45deg);
-	top: 3px;
-	left: 8px;
+	top: 10px;
+	left: 5px;
 }
 
 #nav-icon.open span:nth-child(2) {
@@ -401,5 +401,5 @@ a:focus {
 	-o-transform: rotate(-45deg);
 	transform: rotate(-45deg);
 	top: 39px;
-	left: 8px;
+	left: 5px;
 }
