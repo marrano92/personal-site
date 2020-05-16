@@ -1,9 +1,9 @@
 import React from "react"
 
 const Intro = () => {
-    var introLettersLine1 = "C i a o ,";
-    var introLettersLine2 = "S o n o / A n d r e a  ,";
-    var introLettersLine3 = "S v i l u p p a t o r e / P H P.";
+    var introLettersLine1 = "B a c k - e n d / P H P";
+    var introLettersLine2 = "W o r d p r e s s / W e b";
+    var introLettersLine3 = "D e v e l o p e r";
 
     var introLettersArray = introLettersLine1.split(" ");
     const introTextLine1 = []
@@ -12,7 +12,7 @@ const Intro = () => {
         if (value === '/'){
             introTextLine1.push(
                 <div className="letterWrapper js_charTrigger">
-                    <div className="letter">
+                    <div className="letter" >
                         &nbsp;
                     </div>
                 </div>
@@ -20,7 +20,7 @@ const Intro = () => {
         }else {
             introTextLine1.push(
                 <div className="letterWrapper js_charTrigger">
-                    <div className="letter">
+                    <div className="letter glitch" data-text={value}>
                         {value}
                     </div>
                 </div>
@@ -43,7 +43,7 @@ const Intro = () => {
         }else {
             introTextLine2.push(
                 <div className="letterWrapper js_charTrigger">
-                    <div className="letter">
+                    <div className="letter glitch" data-text={value}>
                         {value}
                     </div>
                 </div>
@@ -66,14 +66,13 @@ const Intro = () => {
         }else {
             introTextLine3.push(
                 <div className="letterWrapper js_charTrigger">
-                    <div className="letter">
+                    <div className="letter glitch" data-text={value}>
                         {value}
                     </div>
                 </div>
             )
         }
     }
-
 
     return (
         <div className="titleIntro container">
