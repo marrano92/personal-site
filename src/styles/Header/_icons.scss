@@ -43,23 +43,27 @@
 }
 
 .social-icons.filter {
-	.icon-github svg{
+	.icon-github svg {
 		fill: $greySite;
 		animation-delay: 6s;
 	}
+	
 	.icon-linkedin svg {
 		fill: $greySite;
 		animation-delay: 3.7s;
 	}
+	
 	.icon-facebook svg {
 		fill: $greySite;
 		animation-delay: 3.9s;
 	}
+	
 	.icon-codepain svg {
 		fill: $greySite;
 		margin-bottom: -8px;
 		animation-delay: 4.1s;
 	}
+	
 	.icon-curriculum svg {
 		fill: $greySite;
 		margin-bottom: -8px;
@@ -69,48 +73,103 @@
 	.icon-linkedin {
 		animation-delay: 2.8s;
 	}
+	
 	.icon-github {
 		animation-delay: 3s;
 	}
+	
 	.icon-facebook {
 		animation-delay: 3.2s;
 	}
+	
 	.icon-codepain {
 		animation-delay: 3.4s;
 	}
+	
 	.icon-curriculum {
 		animation-delay: 3.6s;
 	}
 	
-	.icon-github svg:hover{
+	.icon-github svg:hover {
 		fill: #f3f3f3;
 	}
+	
 	.icon-linkedin svg:hover {
 		fill: #f3f3f3;
 	}
+	
 	.icon-facebook svg:hover {
 		fill: #f3f3f3;
 	}
+	
 	.icon-codepain svg:hover {
 		fill: #f3f3f3;
 	}
+	
 	.icon-curriculum svg:hover {
 		fill: #f3f3f3;
 	}
 	
-	.icon-github svg:hover{
+	.icon-github svg:hover {
 		fill: #f3f3f3;
 	}
+	
 	.icon-linkedin svg:hover {
 		fill: #f3f3f3;
 	}
+	
 	.icon-facebook svg:hover {
 		fill: #f3f3f3;
 	}
+	
 	.icon-codepain svg:hover {
 		fill: #f3f3f3;
 	}
+	
 	.icon-curriculum svg:hover {
 		fill: #f3f3f3;
 	}
+	
+	.home {
+		height: 28px;
+		width: 28px;
+		margin: 0px 14px;
+	}
+}
+
+.socialIconsHome {
+	text-align: left;
+	
+	.icon-linkedin {
+		height: 30px;
+		width: 30px;
+	}
+	
+	.icon-curriculum svg{
+		margin-bottom: 0px!important;
+	}
+	
+	.icon-codepain svg {
+		margin-bottom: 0px!important;
+	}
+	
+	svg {
+		fill: #999!important;
+		height: 100%;
+	}
+	
+}
+
+.socialIconsHome:before {
+	content: "";
+	display: block;
+	transform: translateY(1px);
+	float: left;
+	width: 12.5%;
+	max-width: 210px;
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 1px;
+	background: #c0a062;
+	margin: 12px 3% 12px 10%;
 }

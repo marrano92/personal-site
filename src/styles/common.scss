@@ -6,6 +6,10 @@
 	margin-right: auto;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 *,
 *::after,
 *::before {
@@ -29,23 +33,70 @@ body {
 	font-family: $fontTitle;
 }
 
+body::-webkit-scrollbar-track {
+	border: transparent;
+	background-color: transparent;
+}
+
+body::-webkit-scrollbar {
+	width: 10px;
+	background-color: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+	border-radius: 6px;
+	background-color: #b3b3b3de;
+}
+
 a {
 	cursor: pointer;
 }
 
 .is-none {
-	display: none;
+	display: none!important;
 }
 
-.topLink {
+.p-fixed {
+	position: fixed!important;
+}
+
+.topLinkDiv {
 	position: fixed;
 	right: 20px;
 	font-weight: 600;
 	font-size: 13px;
-	margin-right: 20px;
 	font-family: Roboto, Helvetica, Arial, sans-serif;
 	z-index: 1000;
 	transform-origin: top right;
 	transform: rotate(90deg);
 	bottom: 50px;
+	cursor: pointer;
+	
+	svg {
+		fill: #b19e7f;
+		display: block;
+	}
+	
+	span {
+		margin-left: 3px;
+	}
+	
+	span:hover {
+		color: #b19e7f;
+	}
+}
+
+.topLink {
+	cursor: default;
+	padding: 5px;
+	
+	:hover {
+		fill: white;
+		color: white;
+	}
+	
+}
+
+.div_spaze {
+	height: 200vh;
 }
