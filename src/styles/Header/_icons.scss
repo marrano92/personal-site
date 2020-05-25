@@ -139,25 +139,25 @@
 
 .socialIconsHome {
 	text-align: left;
+	animation-delay: 2.6s;
+	
+	svg {
+		fill: #676767 !important;
+		height: 100%;
+	}
 	
 	.icon-linkedin {
 		height: 30px;
 		width: 30px;
 	}
 	
-	.icon-curriculum svg{
-		margin-bottom: 0px!important;
+	.icon-curriculum svg {
+		margin-bottom: 0px !important;
 	}
 	
 	.icon-codepain svg {
-		margin-bottom: 0px!important;
+		margin-bottom: 0px !important;
 	}
-	
-	svg {
-		fill: #999!important;
-		height: 100%;
-	}
-	
 }
 
 .socialIconsHome:before {

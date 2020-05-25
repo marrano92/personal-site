@@ -3,7 +3,7 @@ import {Link} from "gatsby"
 
 const Topbar = () => {
     return (
-        <div className="appHeader">
+        <div className="appHeader p-fixed">
             <Link to="/" className="logoMenu animate__animated animate__fadeIn">
                 AM
             </Link>

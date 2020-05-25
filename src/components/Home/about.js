@@ -5,8 +5,8 @@ const About = () => {
     return (
         <div className="aboutDiv container">
             <div className="socialLinks">
-                <ul className="social-icons socialIconsHome filter">
-                    <li className="icon icon-linkedin home animate__animated animate__fadeInUp">
+                <ul className="social-icons socialIconsHome filter animate__animated animate__fadeInUp">
+                    <li className="icon icon-linkedin home ">
                         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100%" height="100%"
                              viewBox="0 0 172 172">
                             <g fillRule="nonzero" stroke="none" strokeWidth={1} strokeLinecap="butt"
@@ -20,7 +20,7 @@ const About = () => {
                             </g>
                         </svg>
                     </li>
-                    <li className="icon icon-github home animate__animated animate__fadeInUp">
+                    <li className="icon icon-github home">
                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"
                              x="0px" y="0px" width="100%" height="100%" viewBox="0 0 1000 1000"
                              enableBackground="new 0 0 1000 1000"
@@ -34,7 +34,7 @@ const About = () => {
                             </g>
                         </svg>
                     </li>
-                    <li className="icon icon-facebook home animate__animated animate__fadeInUp">
+                    <li className="icon icon-facebook home">
                         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="90%" height="90%"
                              viewBox="0 0 172 172">
                             <g fillRule="nonzero" stroke="none" strokeWidth={1} strokeLinecap="butt"
@@ -48,14 +48,20 @@ const About = () => {
                             </g>
                         </svg>
                     </li>
-                    <li className="icon icon-codepain home animate__animated animate__fadeInUp">
-                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 1000" enableBackground="new 0 0 1000 1000" xmlSpace="preserve">
-                            <metadata> Svg Vector Icons : http://www.onlinewebfonts.com/icon </metadata>
-                            <g><path d="M975.4,320.4L518.1,15.5c-11-7.3-25.3-7.3-36.2,0L24.6,320.4c-9.1,6.1-14.6,16.3-14.6,27.2v304.9c0,10.9,5.5,21.1,14.6,27.2l457.3,304.9c5.5,3.7,11.8,5.5,18.1,5.5c6.3,0,12.6-1.8,18.1-5.5l457.3-304.9c9.1-6.1,14.6-16.3,14.6-27.2V347.6C990,336.7,984.5,326.5,975.4,320.4L975.4,320.4z M500,613.2L330.2,500L500,386.8L669.8,500L500,613.2z M532.7,330.1V103.7l365.8,243.8L728.7,460.8L532.7,330.1z M467.3,330.1l-196,130.7L101.5,347.6l365.8-243.8V330.1z M212.4,500L75.3,591.4V408.6L212.4,500z M271.3,539.3l196,130.7v226.4L101.5,652.4L271.3,539.3z M532.7,669.9l196-130.7l169.8,113.2L532.7,896.3V669.9z M787.5,500l137.1-91.4v182.8L787.5,500z" /></g>
+                    <li className="icon icon-codepain home">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"
+                             x="0px" y="0px" viewBox="0 0 1000 1000" enableBackground="new 0 0 1000 1000"
+                             xmlSpace="preserve">
+                            <metadata> Svg Vector Icons : http://www.onlinewebfonts.com/icon</metadata>
+                            <g>
+                                <path
+                                    d="M975.4,320.4L518.1,15.5c-11-7.3-25.3-7.3-36.2,0L24.6,320.4c-9.1,6.1-14.6,16.3-14.6,27.2v304.9c0,10.9,5.5,21.1,14.6,27.2l457.3,304.9c5.5,3.7,11.8,5.5,18.1,5.5c6.3,0,12.6-1.8,18.1-5.5l457.3-304.9c9.1-6.1,14.6-16.3,14.6-27.2V347.6C990,336.7,984.5,326.5,975.4,320.4L975.4,320.4z M500,613.2L330.2,500L500,386.8L669.8,500L500,613.2z M532.7,330.1V103.7l365.8,243.8L728.7,460.8L532.7,330.1z M467.3,330.1l-196,130.7L101.5,347.6l365.8-243.8V330.1z M212.4,500L75.3,591.4V408.6L212.4,500z M271.3,539.3l196,130.7v226.4L101.5,652.4L271.3,539.3z M532.7,669.9l196-130.7l169.8,113.2L532.7,896.3V669.9z M787.5,500l137.1-91.4v182.8L787.5,500z"/>
+                            </g>
                         </svg>
                     </li>
-                    <li className="icon icon-curriculum home animate__animated animate__fadeInUp">
-                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"  width="110%" height="110%" viewBox="0 0 172 172">
+                    <li className="icon icon-curriculum home">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="110%" height="110%"
+                             viewBox="0 0 172 172">
                             <g fillRule="nonzero" stroke="none" strokeWidth={1} strokeLinecap="butt"
                                strokeLinejoin="miter" strokeMiterlimit={10} strokeDasharray strokeDashoffset={0}
                                fontFamily="none" fontWeight="none" fontSize="none" textAnchor="none">
@@ -69,6 +75,18 @@ const About = () => {
                     </li>
                 </ul>
             </div>
+            <div className="homeIntroAbout animate__animated animate__fadeInUp">
+                <p>Ciao! Mi chiamo <strong className="redactor-inline-converted">Andrea Marrano</strong> sono un sviluppatore
+                    <strong className="redactor-inline-converted"> PHP </strong>
+                   con 4 anni di esperienza nello sviluppo di <strong className="redactor-inline-converted">applicazioni web</strong>.
+                    Ho iniziato a programmare per <strong className="redactor-inline-converted"> hobby </strong>, infatti fino ad alcuni
+                    anni fa era solo un divertimento, ma dopo alcune vicissitudini
+                    ho capito che sarebbe potuto diventare un lavoro. Durante questi anni ho lavorato per diverse aziende tra cui
+                    <strong className="redactor-inline-converted"> Alascom, StartupItalia e MotorK</strong>.
+                    In questo momento vivo a <strong className="redactor-inline-converted">Milano</strong> da circa un'anno e lavoro come sviluppatore <strong
+                        className="redactor-inline-converted">Backend PHP</strong> in Motork.
+                </p>
+                <p>Find out more <a href="https://davidhellmann.com/about">about me</a>.</p></div>
         </div>
     )
 }

@@ -1,10 +1,19 @@
-@import "~bulma/sass/utilities/all";
-@import "~bulma/sass/layout/all";
-@import "common";
+// Base Styles
 @import "variable";
+@import "common";
 @import "Header/topbar";
 @import "Header/icons";
-@import "home";
-@import "~animate.css/animate.min.css";
-@import "devices";
 
+// Extensions
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// Pages
+@import "home";
+
+// Animation Styles
+@import "~animate.css/animate.min.css";
+
+//Devices
+@import "devices";

@@ -76,13 +76,13 @@ const Intro = () => {
 
     return (
         <div className="titleIntro container">
-            <div className="rowTitle">
+            <div className="rowTitle row1 animate__animated animate__fadeInLeft">
                 {introTextLine1}
             </div>
-            <div className="rowTitle">
+            <div className="rowTitle row2 animate__animated animate__fadeInLeft">
                 {introTextLine2}
             </div>
-            <div className="rowTitle">
+            <div className="rowTitle row3 animate__animated animate__fadeInLeft">
                 {introTextLine3}
             </div>
         </div>

@@ -2,7 +2,7 @@
 	font-family: Droid Serif, Georgia, serif;
 	color: white;
 	height: 100%;
-	padding: 15vh 0px 10vh 0px;
+	padding: 20vh 0px 95px 0px;
 	position: relative;
 	display: grid;
 }
@@ -15,6 +15,15 @@
 	margin-bottom: 2px;
 }
 
+.row1{
+	animation-delay: 0.5s;
+}
+.row2{
+	animation-delay: 1s;
+}
+.row3{
+	animation-delay: 1.5s;
+}
 .letterWrapper {
 	float: left;
 	position: relative;
@@ -104,4 +113,21 @@ skew to change the 'thickness' of the glitch.*/
 			transform: skew((random(10) - 5) + deg);
 		}
 	}
+}
+
+.homeIntroAbout {
+	animation-delay: 2.8s;
+	float: left;
+	width: 83.3333333333%;
+	max-width: 1400px;
+	padding-left: 0;
+	padding-right: 0;
+	position: relative;
+	left: 16.6666666667%;
+}
+
+.aboutDiv {
+	position: relative;
+	height: 40vh;
+	margin-bottom: 5vh;
 }

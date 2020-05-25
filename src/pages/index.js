@@ -6,12 +6,14 @@ import '../javascript/home.js'
 import Header from "../components/header";
 import HomeIntro from "../components/Home/intro"
 import About from "../components/Home/about";
+import Software from "../components/Home/software";
 
 const IndexPage = () => (
     <div>
         <Header/>
         <HomeIntro/>
         <About/>
+        <Software/>
         <div className="div_spaze"></div>
         <a className="topLink" href="#home">
             <div className="topLinkDiv animate__animated animate__fadeInRight">

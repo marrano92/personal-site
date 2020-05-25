@@ -1,6 +1,9 @@
 /* Desktops and laptops ----------- */
 @media only screen and (min-width: 1224px) {
 	/* STYLES GO HERE */
+	body {
+		font-size: calc(18px + 5.4 * ((100vw - 1400px) / 280));
+	}
 	.container {
 		max-width: 85%;
 	}
