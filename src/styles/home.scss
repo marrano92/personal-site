@@ -15,15 +15,6 @@
 	margin-bottom: 2px;
 }
 
-.row1{
-	animation-delay: 0.5s;
-}
-.row2{
-	animation-delay: 1s;
-}
-.row3{
-	animation-delay: 1.5s;
-}
 .letterWrapper {
 	float: left;
 	position: relative;
@@ -116,7 +107,7 @@ skew to change the 'thickness' of the glitch.*/
 }
 
 .homeIntroAbout {
-	animation-delay: 2.8s;
+	padding-top: 15px;
 	float: left;
 	width: 83.3333333333%;
 	max-width: 1400px;
@@ -128,6 +119,88 @@ skew to change the 'thickness' of the glitch.*/
 
 .aboutDiv {
 	position: relative;
-	height: 40vh;
+	height: 300px;
 	margin-bottom: 5vh;
+}
+
+.program-list li {
+	margin-bottom: 55px;
+	width: 25%;
+	display: -webkit-inline-box;
+}
+.program-list svg {
+	margin: 0px auto;
+}
+.softwareLogos path{
+	fill: white;
+}
+.image-holder {
+	height: 400px;
+	width: 90px;
+	position: absolute;
+	background-color: #1d1d1d;
+	z-index: 10;
+	margin-top: 350px;
+}
+
+.laravel {
+	margin-top: -54px!important;
+}
+
+.gatsby {
+	margin-top: -55px;
+}
+.section-heading {
+	margin: auto 1px;
+}
+
+.socialIconsHome {
+	text-align: left;
+	animation-delay: 1.4s;
+	
+	svg {
+		fill: #676767 !important;
+		height: 100%;
+	}
+	
+	.icon-linkedin {
+		height: 30px;
+		width: 30px;
+	}
+	
+	.icon-curriculum svg {
+		margin-bottom: 0px !important;
+	}
+	
+	.icon-codepain svg {
+		margin-bottom: 0px !important;
+	}
+}
+
+.socialIconsHome:before {
+	content: "";
+	display: block;
+	transform: translateY(1px);
+	float: left;
+	width: 12.5%;
+	max-width: 210px;
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 1px;
+	background: #c0a062;
+	margin: 12px 3% 12px 10%;
+}
+
+// Animation
+.row1{
+	animation-delay: 0.2s;
+}
+.row2{
+	animation-delay: 0.6s;
+}
+.row3{
+	animation-delay: 1s;
+}
+.homeIntroAbout {
+	animation-delay: 1.7s;
 }

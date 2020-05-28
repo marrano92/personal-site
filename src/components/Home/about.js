@@ -79,14 +79,12 @@ const About = () => {
                 <p>Ciao! Mi chiamo <strong className="redactor-inline-converted">Andrea Marrano</strong> sono un sviluppatore
                     <strong className="redactor-inline-converted"> PHP </strong>
                    con 4 anni di esperienza nello sviluppo di <strong className="redactor-inline-converted">applicazioni web</strong>.
-                    Ho iniziato a programmare per <strong className="redactor-inline-converted"> hobby </strong>, infatti fino ad alcuni
-                    anni fa era solo un divertimento, ma dopo alcune vicissitudini
-                    ho capito che sarebbe potuto diventare un lavoro. Durante questi anni ho lavorato per diverse aziende tra cui
+                    Ho iniziato a programmare per <strong className="redactor-inline-converted"> hobby </strong>, per divertimento, . Durante questi anni ho lavorato per diverse aziende tra cui
                     <strong className="redactor-inline-converted"> Alascom, StartupItalia e MotorK</strong>.
                     In questo momento vivo a <strong className="redactor-inline-converted">Milano</strong> da circa un'anno e lavoro come sviluppatore <strong
                         className="redactor-inline-converted">Backend PHP</strong> in Motork.
                 </p>
-                <p>Find out more <a href="https://davidhellmann.com/about">about me</a>.</p></div>
+                <p>Scopri di più <a href="https://davidhellmann.com/about">su di me</a>.</p></div>
         </div>
     )
 }
