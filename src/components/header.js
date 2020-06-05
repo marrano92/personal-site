@@ -63,7 +63,7 @@ const Header = () => {
     }
 
     return (
-        <header className="demo-1">
+        <header className="container max-w-full">
             <main>
                 <div className="menuDiv animate__animated animate__fadeInDown is-none">
                     <nav className="menu container">

@@ -3,7 +3,7 @@ import React from "react"
 const About = () => {
 
     return (
-        <div className="aboutDiv container">
+        <div className="aboutDiv container largeContainer">
             <div className="socialLinks">
                 <ul className="social-icons socialIconsHome filter animate__animated animate__fadeInUp">
                     <li className="icon icon-linkedin home ">

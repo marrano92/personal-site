@@ -1,8 +1,8 @@
-.titleIntro{
+.titleIntro {
 	font-family: Droid Serif, Georgia, serif;
 	color: white;
 	height: 100%;
-	padding: 20vh 0px 95px 0px;
+	padding: 12vh 0px 95px 0px;
 	position: relative;
 	display: grid;
 }
@@ -13,6 +13,7 @@
 	position: relative;
 	margin-top: 2px;
 	margin-bottom: 2px;
+	padding-left: 35px;
 }
 
 .letterWrapper {
@@ -21,7 +22,7 @@
 }
 
 .letter {
-	cursor: default!important;
+	cursor: default !important;
 	font-size: $heightLetterIntro;
 	font-weight: 900;
 	letter-spacing: -6px;
@@ -46,7 +47,7 @@
 	animation: glitch-skew 1s infinite linear alternate-reverse;
 	
 	// Creates a copy before our text.
-	&::before{
+	&::before {
 		// Duplicates our text with the mixin.
 		@include glitchCopy;
 		// Scoots text slightly to the left for the color offset.
@@ -128,30 +129,54 @@ skew to change the 'thickness' of the glitch.*/
 	width: 25%;
 	display: -webkit-inline-box;
 }
+
 .program-list svg {
 	margin: 0px auto;
 }
-.softwareLogos path{
+
+.softwareLogos path {
 	fill: white;
 }
+
 .image-holder {
 	height: 400px;
 	width: 90px;
 	position: absolute;
 	background-color: #1d1d1d;
-	z-index: 10;
-	margin-top: 350px;
+	margin-top: 307px;
+	margin-left: -5px;
 }
 
 .laravel {
-	margin-top: -54px!important;
+	margin-top: -54px !important;
+}
+
+.react {
+	margin-top: -71px !important;
+}
+
+.qlik-sense {
+	margin-top: -71px !important;
+}
+
+.wordpress {
+	margin-top: -65px !important;
 }
 
 .gatsby {
 	margin-top: -55px;
 }
+
 .section-heading {
 	margin: auto 1px;
+}
+
+.javascript {
+	padding: 0px 35px;
+}
+
+.qlik-sense {
+	padding: 0px 25px;
 }
 
 .socialIconsHome {
@@ -192,15 +217,30 @@ skew to change the 'thickness' of the glitch.*/
 }
 
 // Animation
-.row1{
+.row1 {
 	animation-delay: 0.2s;
 }
-.row2{
+
+.row2 {
 	animation-delay: 0.6s;
 }
-.row3{
+
+.row3 {
 	animation-delay: 1s;
 }
+
 .homeIntroAbout {
 	animation-delay: 1.7s;
+}
+
+.softwareDiv:before {
+	content: "";
+	width: 132px;
+	height: 15px;
+	z-index: 10;
+	background-color: $backgroundColor;
+	background-position: 50%;
+	background-repeat: repeat-x;
+	background-image: url("../images/middle.svg");
+	margin: 0px auto 10rem;
 }
