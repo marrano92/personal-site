@@ -5,9 +5,9 @@ import ImageSoftware from "../../images/software.webp"
 const Software = () => {
 
     return (
-        <div className="softwareDiv container grid pt-32 pb-40 largeContainer">
+        <div className="softwareDiv container grid pt-32 pb-40 lg:pt-8 lg:pb-8 xl:pt-32 xl:pb-40 md:pl-8 md:pr-8 largeContainer">
             <div className="titleSoftware grid grid-cols-2 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-4">
-                <div className="pr-8">
+                <div className="pr-8 lg:pr-8 md:pr-0">
                     <div className="section-heading" data-wow-duration=".45s" data-wow-delay=".75s"
                          style={{
                              visibility: 'visible',
@@ -17,7 +17,7 @@ const Software = () => {
                          }}><h2>Con cosa sviluppo</h2>
                         <p>Lavoro con diversi Linguaggi di programmazione, diversi software e diversi framework,
                             qui sotto trovate un piccolo elenco di quelli che utilizzo più spesso. </p></div>
-                    <ul className="program-list  pt-16">
+                    <ul className="program-list  pt-16 lg:pt-8 xl:pt-8 md:pt-4">
                         <li>
                             <svg width="100%" className="softwareLogos laravel" xmlns="http://www.w3.org/2000/svg"
                                  xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 110 30"
@@ -238,7 +238,7 @@ const Software = () => {
                         </li>
                     </ul>
                 </div>
-                <div className="pl-8">
+                <div className="pl-8 lg:pl-8 md:pl-0">
                     <div className="imageSoftware">
                         <div className="image-holder"/>
                         <img src={ImageSoftware} alt="image description"

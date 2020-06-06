@@ -11,9 +11,10 @@ $fontMenu: "Open Sans", sans-serif;
 //Navbar
 $heightNavIcon: 45px;
 $positionHamburgerLine1: 11px;
-$positionHamburgerLine2: $heightNavIcon / 2;
+$positionHamburgerLineCalc: $heightNavIcon / 2;
+$positionHamburgerLine2: $positionHamburgerLineCalc - 1;
 $positionHamburgerLine3: 33px;
-$heightLineLetterIntro:  10vw;
+$heightLineLetterIntro: 10vw;
 $heightLetterIntro: 13vw;
-$maxHeightLineLetterIntro:  150px;
+$maxHeightLineLetterIntro: 150px;
 $maxHeightLetterIntro: 175px;

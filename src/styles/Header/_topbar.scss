@@ -54,10 +54,6 @@ a:focus {
 	line-height: 1;
 }
 
-.appHeader {
-	left: 0px;
-}
-
 .frame__title {
 	font-size: 1rem;
 	margin: 0 0 1rem;
@@ -109,18 +105,15 @@ a:focus {
 	height: 100%;
 	top: 0;
 	padding: 100px 0px;
-	z-index: 1;
 	display: inline-table;
 	left: 0;
+	z-index: 11;
 }
 .bodyBlock{
 	overflow: hidden;
 	position: fixed;
 	left: 0px;
 	width: 100%;
-}
-.logoMenu{
-
 }
 
 .menu__item:nth-child(1) {
@@ -321,12 +314,6 @@ a:focus {
 	position: relative;
 	width: 100%;
 }
-
-.logoMenu {
-	left: 40px;
-	top: 40px;
-}
-
 
 /* Icon 1 */
 

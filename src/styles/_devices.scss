@@ -13,10 +13,6 @@
 	.container {
 		margin: 0px auto;
 	}
-	
-	.appHeader {
-		padding-top: 40px;
-	}
 }
 
 /* Smartphones (landscape) ----------- */
@@ -37,18 +33,40 @@
 		width: 50vh;
 	}
 	
-	.softwareDiv{
+	.softwareDiv {
 		padding: 0px 30px;
 	}
 	
-	.social-icons.filter .home{
+	body {
+		font-size: 16px;
+	}
+	
+	.social-icons.filter .home {
 		height: 20px;
 		width: 20px;
 		margin: 0px 9px;
 	}
+	#nav-icon span:nth-child(1) {
+		top: 10px;
+	}
+	#nav-icon span:nth-child(2) {
+		top: 19.5px;
+	}
+	#nav-icon span:nth-child(3) {
+		top: 28px;
+	}
+	
+	#nav-icon.open span:nth-child(3) {
+		top: 32px;
+	}
+	
 	#nav-icon {
-		width: 35px;
-		height: 35px;
+		width: 30px;
+		height: 30px;
+		
+		span {
+			height: 3px;
+		}
 	}
 	
 	.homeLink {
@@ -58,23 +76,27 @@
 	
 	.image-holder {
 		margin-top: 200px;
-		margin-left: -11px;
+		margin-left: -26px;
 	}
 	
 	.letter {
-		font-size: 10.5vw;
-		line-height: 8vw;
+		font-size: 11.5vw;
+		line-height: 9vw;
 	}
 	
-	.titleIntro{
-		padding-left: 30px;
-		padding-right: 30px;
+	.titleIntro {
+		padding: 12vh 30px 47px 30px;
 	}
 	
-	.aboutDiv{
+	.aboutDiv {
 		padding: 0px 30px;
 	}
-	
+	.aboutDiv {
+		height: 240px;
+	}
+	.softwareDiv:before {
+		margin: 0px auto 7rem;
+	}
 	.icon {
 		height: 30px;
 		width: 30px;
@@ -83,24 +105,97 @@
 	.menu {
 		padding-left: 100px;
 	}
+	
 }
 
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+	.softwareDiv {
+		padding: 0px 15px;
+	}
+	h2 {
+		margin: 35px 0 15px;
+		font-size: 38px;
+	}
+	.letter {
+		font-size: 13.5vw;
+		line-height: 11vw;
+	}
+	.rowTitle {
+		padding-left: 15px;
+	}
+	.javascript {
+		padding: 0px 28px;
+		margin-top: -54px;
+	}
+	body {
+		font-size: 15px;
+	}
+	.laravel {
+		margin-top: 0px !important;
+	}
+	.program-list li {
+		width: 23%;
+		padding-bottom: 16px;
+	}
+	.qlik-sense {
+		padding: 0px 17px;
+	}
+	
+	.logoMenu {
+		width: 50px;
+		line-height: 50px;
+		font-size: 14px;
+	}
+	.program-list svg {
+		margin: 0px auto 5px;
+	}
+	#nav-icon {
+		margin-top: 5px;
+	}
+	
+	.menu__item .menu__item-link {
+		padding: 7px;
+	}
+	.menu {
+		padding-left: 80px;
+		padding-top: 35px;
+	}
+	.socialIconsHome:before {
+		margin: 12px 2% 12px 4%;
+	}
+	.homeIntroAbout {
+		left: 10.666667%;
+	}
+	svg.javascript {
+		margin-top: -53px;
+	}
+	.aboutDiv {
+		height: 210px;
+	}
 }
 
 /* iPads (landscape) ----------- */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+	.homeLink {
+		padding-left: 15px;
+		font-size: 14px;
+		line-height: 50px;
+	}
 }
 
 /* iPads (portrait) ----------- */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-	.logoMenu {
-		left: 20px;
-		top: 20px;
-	}
 	.homeLink {
-		padding-left: 30px;
+		font-size: 14px;
+		padding-left: 2vw;
+		line-height: 50px;
+	}
+	.menu__item-link {
+		font-size: 8.5vw;
+	}
+	.menu__item-link, .marquee span {
+		font-size: 8.5vw;
 	}
 }
 
@@ -130,13 +225,9 @@
 	.topBar {
 		height: 60px;
 	}
-	.logoMenu {
-		left: 20px;
-		top: 20px;
-	}
+	
 	.appHeader {
 		height: 100px;
-		padding-top: 10px;
 	}
 }
 
@@ -157,13 +248,7 @@
 	.homeLink {
 		display: none;
 	}
-	.logoMenu {
-		left: 11px;
-		top: 11px;
-	}
-	.appHeader {
-		padding-top: 11px;
-	}
+
 	#nav-icon {
 		margin-top: 0px;
 	}
@@ -174,10 +259,7 @@
 	.homeLink {
 		display: none;
 	}
-	.logoMenu {
-		left: 11px;
-		top: 11px;
-	}
+	
 	#nav-icon {
 		margin-top: var(--marginTop);
 		--marginTop: calc((60px - (45px - (45px / 100))) / 2);

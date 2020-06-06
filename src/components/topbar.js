@@ -11,16 +11,16 @@ const Topbar = () => {
         }
 
         document.querySelector('#nav-icon').classList.toggle('open');
-        document.querySelector('.menuDiv').classList.toggle('is-none');
+        document.querySelector('.menuDiv').classList.toggle('d-none');
     }
 
     return (
-        <div className="appHeader container pl-20 pr-20 max-w-full">
-            <Link to="/" className="logoMenu animate__animated animate__fadeIn">
+        <div className="appHeader container pl-20 pr-20 lg:pl-10 lg:pr-10 xl:pl-20 xl:pr-20 xl:pt-10 md:pt-10 md:pl-8 md:pr-8 max-w-full">
+            <Link to="/" className="logoMenu lg:ml-10 lg:mt-10 xl:ml-20 xl:mt-10 md:ml-8 md:mt-10 animate__animated animate__fadeIn">
                 AM
             </Link>
             <div className="topBar">
-                <Link to="/" className="homeLink">
+                <Link to="/" className="homeLink md:pl-20 lg:pl-20 xl:pl-20 ">
                    Andrea Marrano
                 </Link>
                 <div id="nav-icon" onClick={openMenu}>

@@ -65,8 +65,8 @@ const Header = () => {
     return (
         <header className="container max-w-full">
             <main>
-                <div className="menuDiv animate__animated animate__fadeInDown is-none">
-                    <nav className="menu container">
+                <div className="menuDiv animate__animated animate__fadeInDown d-none">
+                    <nav className="menu container md:pl-10 xs:pl-2 lg:pl-14 xl:pl-16">
                         {menuItems}
                     </nav>
                     <IconSocial/>

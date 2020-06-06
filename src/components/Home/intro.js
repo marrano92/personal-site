@@ -75,7 +75,7 @@ const Intro = () => {
     }
 
     return (
-        <div className="titleIntro container largeContainer">
+        <div className="titleIntro container largeContainer md:pl-8 md:pr-8">
             <div className="rowTitle row1 animate__animated animate__fadeInLeft">
                 {introTextLine1}
             </div>
