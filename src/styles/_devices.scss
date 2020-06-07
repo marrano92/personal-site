@@ -124,36 +124,20 @@
 	.rowTitle {
 		padding-left: 15px;
 	}
-	.javascript {
-		padding: 0px 28px;
-		margin-top: -54px;
-	}
 	body {
 		font-size: 15px;
 	}
-	.laravel {
-		margin-top: 0px !important;
-	}
 	.program-list li {
 		width: 23%;
-		padding-bottom: 16px;
 	}
-	.qlik-sense {
-		padding: 0px 17px;
-	}
-	
 	.logoMenu {
 		width: 50px;
 		line-height: 50px;
 		font-size: 14px;
 	}
-	.program-list svg {
-		margin: 0px auto 5px;
-	}
 	#nav-icon {
 		margin-top: 5px;
 	}
-	
 	.menu__item .menu__item-link {
 		padding: 7px;
 	}
@@ -166,9 +150,6 @@
 	}
 	.homeIntroAbout {
 		left: 10.666667%;
-	}
-	svg.javascript {
-		margin-top: -53px;
 	}
 	.aboutDiv {
 		height: 210px;
@@ -212,11 +193,14 @@
 	.largeContainer {
 		max-width: 1550px;
 	}
+	
+	body {
+		font-size: 24px;
+	}
 }
 
 /* Large screens ----------- */
 @media only screen and (min-width: 1440px) {
-
 }
 
 /* iPhone 5 (portrait &amp; landscape)----------- */

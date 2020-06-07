@@ -7,7 +7,7 @@ const Software = () => {
     return (
         <div className="softwareDiv container grid pt-32 pb-40 lg:pt-8 lg:pb-8 xl:pt-32 xl:pb-40 md:pl-8 md:pr-8 largeContainer">
             <div className="titleSoftware grid grid-cols-2 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-4">
-                <div className="pr-8 lg:pr-8 md:pr-0">
+                <div className="pr-8 lg:pr-6 xl:pr-8 md:pr-0">
                     <div className="section-heading" data-wow-duration=".45s" data-wow-delay=".75s"
                          style={{
                              visibility: 'visible',
@@ -67,7 +67,7 @@ const Software = () => {
                             </svg>
                         </li>
                         <li>
-                            <svg className="javascript" width="100%" viewBox="0 0 256 256"
+                            <svg className="javascript md:pr-6 md:pl-6 lg:pt-0 lg:pr-8 lg:pl-8 xl:pt-1 xl:pr-10 xl:pl-10" width="100%" viewBox="0 0 256 256"
                                  xmlns="http://www.w3.org/2000/svg"
                                  preserveAspectRatio="xMinYMin meet">
                                 <path d="M0 0h256v256H0V0z" fill="white"/>
@@ -89,7 +89,7 @@ const Software = () => {
                             </svg>
                         </li>
                         <li>
-                            <svg version="1.1" className="softwareLogos qlik-sense" width="100%"
+                            <svg version="1.1" className="softwareLogos qlik-sense md:pr-6 md:pl-6 m lg:pr-7 lg:pl-7 xl:pr-7 xl:pl-7" width="100%"
                                  xmlns="http://www.w3.org/2000/svg"
                                  xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 2365 1538" xmlSpace="preserve">
                                 <path className="st0" d="M1155.9,993.7H46.4c-11.6,0-27.8,4.6-25.5-11.6c0-16.2,16.2-13.9,27.8-13.9h2214.3c9.3,0,16.2,0,25.5,4.6
@@ -169,7 +169,7 @@ const Software = () => {
                             </svg>
                         </li>
                         <li>
-                            <svg version={1.0} xmlns="http://www.w3.org/2000/svg" className="softwareLogos wordpress" width="100%"
+                            <svg version={1.0} xmlns="http://www.w3.org/2000/svg" className="softwareLogos wordpress lg:pt-2 xl:pt-4" width="100%"
                                  xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 540 122.523"
                                  xmlSpace="preserve">
                                 <g id="Layer_1">

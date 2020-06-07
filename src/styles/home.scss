@@ -125,13 +125,13 @@ skew to change the 'thickness' of the glitch.*/
 }
 
 .program-list li {
-	margin-bottom: 55px;
 	width: 25%;
-	display: -webkit-inline-box;
+	display: inline-block;
+	height: 70px;
 }
 
 .program-list svg {
-	margin: 0px auto;
+	margin: auto auto;
 }
 
 .softwareLogos path {
@@ -147,36 +147,12 @@ skew to change the 'thickness' of the glitch.*/
 	margin-left: -5px;
 }
 
-.laravel {
-	margin-top: -54px !important;
-}
-
-.react {
-	margin-top: -71px !important;
-}
-
-.qlik-sense {
-	margin-top: -71px !important;
-}
-
-.wordpress {
-	margin-top: -65px !important;
-}
-
 .gatsby {
 	margin-top: -55px;
 }
 
 .section-heading {
 	margin: auto 1px;
-}
-
-.javascript {
-	padding: 0px 40px;
-}
-
-.qlik-sense {
-	padding: 0px 25px;
 }
 
 .socialIconsHome {
@@ -243,4 +219,5 @@ skew to change the 'thickness' of the glitch.*/
 	background-repeat: repeat-x;
 	background-image: url("../images/middle.svg");
 	margin: 0px auto 10rem;
+	opacity: .15;
 }
