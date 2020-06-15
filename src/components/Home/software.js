@@ -5,9 +5,11 @@ import ImageSoftware from "../../images/software.webp"
 const Software = () => {
 
     return (
-        <div className="softwareDiv container grid pt-32 pb-40 lg:pt-8 lg:pb-8 xl:pt-32 xl:pb-40 md:pl-8 md:pr-8 largeContainer">
-            <div className="titleSoftware grid grid-cols-2 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-4">
-                <div className="pr-8 lg:pr-6 xl:pr-8 md:pr-0">
+        <div
+            className="softwareDiv container grid pt-32 pb-40 lg:pt-8 lg:pb-8 xl:pt-24 xl:pb-40 md:pl-8 md:pr-8 md:pt-16 largeContainer">
+            <div
+                className="titleSoftware grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-4">
+                <div className="pr-0 lg:pr-6 xl:pr-8 md:pr-0">
                     <div className="section-heading" data-wow-duration=".45s" data-wow-delay=".75s"
                          style={{
                              visibility: 'visible',
@@ -19,7 +21,7 @@ const Software = () => {
                             qui sotto trovate un piccolo elenco di quelli che utilizzo più spesso. </p></div>
                     <ul className="program-list  pt-16 lg:pt-8 xl:pt-8 md:pt-4">
                         <li>
-                            <svg width="100%" className="softwareLogos laravel" xmlns="http://www.w3.org/2000/svg"
+                            <svg width="100%" className="softwareLogos laravel pl-2 pr-2 pt-2" xmlns="http://www.w3.org/2000/svg"
                                  xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 110 30"
                                  strokeLinecap="round" strokeLinejoin="round">
                                 <use xlinkHref="#A" x=".5" y=".5"/>
@@ -42,7 +44,7 @@ const Software = () => {
                             </svg>
                         </li>
                         <li>
-                            <svg className="softwareLogos git" width="70%" viewBox="0 0 256 108"
+                            <svg className="softwareLogos git pr-1" width="70%" viewBox="0 0 256 108"
                                  xmlns="http://www.w3.org/2000/svg"
                                  preserveAspectRatio="xMinYMin meet">
                                 <path
@@ -67,16 +69,18 @@ const Software = () => {
                             </svg>
                         </li>
                         <li>
-                            <svg className="javascript md:pr-6 md:pl-6 lg:pt-0 lg:pr-8 lg:pl-8 xl:pt-1 xl:pr-10 xl:pl-10" width="100%" viewBox="0 0 256 256"
-                                 xmlns="http://www.w3.org/2000/svg"
-                                 preserveAspectRatio="xMinYMin meet">
+                            <svg
+                                className="javascript pl-12 pr-12 md:pr-6 md:pl-6 lg:pt-0 lg:pr-8 lg:pl-8 xl:pr-10 xl:pl-10"
+                                width="100%" viewBox="0 0 256 256"
+                                xmlns="http://www.w3.org/2000/svg"
+                                preserveAspectRatio="xMinYMin meet">
                                 <path d="M0 0h256v256H0V0z" fill="white"/>
                                 <path fill="#1d1d1d"
                                       d="M67.312 213.932l19.59-11.856c3.78 6.701 7.218 12.371 15.465 12.371 7.905 0 12.89-3.092 12.89-15.12v-81.798h24.057v82.138c0 24.917-14.606 36.259-35.916 36.259-19.245 0-30.416-9.967-36.087-21.996M152.381 211.354l19.588-11.341c5.157 8.421 11.859 14.607 23.715 14.607 9.969 0 16.325-4.984 16.325-11.858 0-8.248-6.53-11.17-17.528-15.98l-6.013-2.58c-17.357-7.387-28.87-16.667-28.87-36.257 0-18.044 13.747-31.792 35.228-31.792 15.294 0 26.292 5.328 34.196 19.247L210.29 147.43c-4.125-7.389-8.591-10.31-15.465-10.31-7.046 0-11.514 4.468-11.514 10.31 0 7.217 4.468 10.14 14.778 14.608l6.014 2.577c20.45 8.765 31.963 17.7 31.963 37.804 0 21.654-17.012 33.51-39.867 33.51-22.339 0-36.774-10.654-43.819-24.574"/>
                             </svg>
                         </li>
                         <li>
-                            <svg version="1.1" className="react" width="100%" xmlns="http://www.w3.org/2000/svg"
+                            <svg version="1.1" className="react pr-2 pl-1" width="100%" xmlns="http://www.w3.org/2000/svg"
                                  viewBox="-144.1 342.6 230.3 97" xmlSpace="preserve">
                                 <path className="st0" fill="white"
                                       d="M-144.1 390.9c0 8.1 8 15.8 20.5 20-2.5 12.6-.4 22.8 6.4 26.7 7.1 4.1 17.6 1.3 27.5-7.5 9.7 8.4 19.6 11.7 26.4 7.7 7.1-4.1 9.2-14.9 6.6-27.9 13.1-4.3 20.4-10.8 20.4-19.1 0-8-8-14.8-20.3-19.1 2.8-13.5.4-23.5-6.7-27.6-6.9-4-16.8-.5-26.7 8.1-10.3-9.1-20.1-11.9-27.3-7.8-6.9 4-8.9 14.3-6.3 27.2-12.2 4.4-20.5 11.4-20.5 19.3z"/>
@@ -89,7 +93,9 @@ const Software = () => {
                             </svg>
                         </li>
                         <li>
-                            <svg version="1.1" className="softwareLogos qlik-sense md:pr-6 md:pl-6 m lg:pr-7 lg:pl-7 xl:pr-7 xl:pl-7" width="100%"
+                            <svg version="1.1"
+                                 className="softwareLogos qlik-sense pl-8 pr-8 md:pr-6 md:pl-6 m lg:pr-7 lg:pl-7 xl:pr-7 xl:pl-7"
+                                 width="100%"
                                  xmlns="http://www.w3.org/2000/svg"
                                  xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 2365 1538" xmlSpace="preserve">
                                 <path className="st0" d="M1155.9,993.7H46.4c-11.6,0-27.8,4.6-25.5-11.6c0-16.2,16.2-13.9,27.8-13.9h2214.3c9.3,0,16.2,0,25.5,4.6
@@ -169,7 +175,8 @@ const Software = () => {
                             </svg>
                         </li>
                         <li>
-                            <svg version={1.0} xmlns="http://www.w3.org/2000/svg" className="softwareLogos wordpress lg:pt-2 xl:pt-4" width="100%"
+                            <svg version={1.0} xmlns="http://www.w3.org/2000/svg"
+                                 className="softwareLogos wordpress pl-2 pr-2 pt-4 lg:pt-2 xl:pt-4" width="100%"
                                  xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 540 122.523"
                                  xmlSpace="preserve">
                                 <g id="Layer_1">
@@ -238,9 +245,9 @@ const Software = () => {
                         </li>
                     </ul>
                 </div>
-                <div className="pl-8 lg:pl-8 md:pl-0">
+                <div className="pl-0 lg:pl-8 md:pl-0">
                     <div className="imageSoftware">
-                        <div className="image-holder"/>
+                        <div className="image-holder hide_mobile"/>
                         <img src={ImageSoftware} alt="image description"
                              className="wow slideInRight cover-image"/>
 

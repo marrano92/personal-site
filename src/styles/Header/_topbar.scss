@@ -281,11 +281,11 @@ a:focus {
 	color: #fff;
 	line-height: 60px;
 	transition: all .25s ease-out;
-	font-family: Roboto, Helvetica, Arial, sans-serif;
-	font-size: 18px;
 	text-transform: capitalize;
 	font-weight: 700;
 	padding-left: 36px;
+	font-family: "Source Sans Pro", sans-serif, Helvetica, Arial, sans-serif;
+	font-size: 23px;
 	
 	:hover {
 		color: #fff;
@@ -302,9 +302,10 @@ a:focus {
 	line-height: 60px;
 	background-color: #c0a062;
 	color: #161616;
-	font-size: 18px;
 	font-weight: 700;
 	text-align: center;
+	font-family: "Source Sans Pro", sans-serif, Helvetica, Arial, sans-serif;
+	font-size: 24px;
 }
 
 .appHeader {

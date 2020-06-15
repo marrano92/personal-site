@@ -9,10 +9,6 @@
 		font-size: $maxHeightLetterIntro;
 		line-height: $maxHeightLineLetterIntro;
 	}
-	
-	.container {
-		margin: 0px auto;
-	}
 }
 
 /* Smartphones (landscape) ----------- */
@@ -46,12 +42,15 @@
 		width: 20px;
 		margin: 0px 9px;
 	}
+	
 	#nav-icon span:nth-child(1) {
 		top: 10px;
 	}
+	
 	#nav-icon span:nth-child(2) {
 		top: 19.5px;
 	}
+	
 	#nav-icon span:nth-child(3) {
 		top: 28px;
 	}
@@ -84,9 +83,6 @@
 		line-height: 9vw;
 	}
 	
-	.titleIntro {
-		padding: 12vh 30px 47px 30px;
-	}
 	
 	.aboutDiv {
 		padding: 0px 30px;
@@ -205,6 +201,78 @@
 
 /* iPhone 5 (portrait &amp; landscape)----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+	body {
+		font-size: 18px;
+	}
+	
+	h2 {
+		font-size: 39px;
+		line-height: 40px;
+	}
+	
+	.letter {
+		font-size: 14.5vw;
+		line-height: 12vw;
+		letter-spacing: -3px;
+	}
+	
+	.softwareDiv {
+		padding: 0px 25px;
+	}
+	
+	.git {
+		width: 75%;
+	}
+	
+	.menu {
+		padding-left: 25px;
+	}
+	
+	.social-icons.filter.icon_menu {
+		position: absolute;
+		width: 100%;
+		bottom: 30px;
+	}
+	
+	.menu__item-link, .marquee span {
+		font-size: 3.2rem;
+	}
+	
+	.aboutDiv {
+		height: 100%;
+		display: inline-block;
+		padding: 0px 25px;
+	}
+	
+	.softwareDiv:before {
+		margin: 2rem auto 2rem;
+	}
+	
+	.social-icons.filter .home {
+		height: 25px;
+		width: 25px;
+	}
+	
+	.program-list li {
+		width: 50%;
+		display: inline-block;
+		height: 75px;
+	}
+	
+	.homeIntroAbout {
+		display: block;
+		padding-top: 25px;
+		left: 0;
+		width: 100%;
+	}
+	
+	.socialIconsHome:before {
+		display: none;
+	}
+	
+	.rowTitle {
+		padding-left: 15px;
+	}
 	
 	.topBar {
 		height: 60px;
@@ -212,6 +280,10 @@
 	
 	.appHeader {
 		height: 100px;
+	}
+	
+	.hide_mobile {
+		display: none;
 	}
 }
 
@@ -232,7 +304,7 @@
 	.homeLink {
 		display: none;
 	}
-
+	
 	#nav-icon {
 		margin-top: 0px;
 	}
@@ -246,11 +318,22 @@
 	
 	#nav-icon {
 		margin-top: var(--marginTop);
-		--marginTop: calc((60px - (45px - (45px / 100))) / 2);
+		--marginTop: calc((60px - (37px - (45px / 100))) / 2);
 	}
+	
 	.icon {
 		height: 35px;
 		width: 35px;
 		margin: 0px 10px;
+	}
+}
+
+@media only screen and (max-device-width: 320px) {
+	.icon {
+		height: 30px;
+		width: 30px;
+	}
+	h2 {
+		font-size: 35px;
 	}
 }

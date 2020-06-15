@@ -7,10 +7,8 @@ import Header from "../components/header";
 import HomeIntro from "../components/Home/intro"
 import About from "../components/Home/about";
 import Software from "../components/Home/software";
-
+import Projects from "../components/Home/projects";
 const IndexPage = () => {
-
-    let javscript = '';
 
     return (
         <div>
@@ -18,7 +16,8 @@ const IndexPage = () => {
             <HomeIntro/>
             <About/>
             <Software/>
-            <div className="div_spaze"></div>
+            <Projects/>
+            <div className="image_profile"></div>
             <a className="topLink" href="#home">
                 <div className="topLinkDiv animate__animated d-none">
                     <svg width={24} height={24} xmlns="http://www.w3.org/2000/svg" fillRule="evenodd"
@@ -29,9 +28,6 @@ const IndexPage = () => {
                     <span>UP</span>
                 </div>
             </a>
-            <script>
-                {javscript}
-            </script>
         </div>
     )
 }
