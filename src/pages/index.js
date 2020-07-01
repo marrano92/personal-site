@@ -7,7 +7,7 @@ import Header from "../components/header";
 import HomeIntro from "../components/Home/intro"
 import About from "../components/Home/about";
 import Software from "../components/Home/software";
-import Projects from "../components/Home/projects";
+import Portfolio from "../components/Home/portfolio";
 const IndexPage = () => {
 
     return (
@@ -16,7 +16,7 @@ const IndexPage = () => {
             <HomeIntro/>
             <About/>
             <Software/>
-            <Projects/>
+            <Portfolio/>
             <div className="image_profile"></div>
             <a className="topLink" href="#home">
                 <div className="topLinkDiv animate__animated d-none">

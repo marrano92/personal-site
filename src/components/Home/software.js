@@ -21,7 +21,8 @@ const Software = () => {
                             qui sotto trovate un piccolo elenco di quelli che utilizzo più spesso. </p></div>
                     <ul className="program-list  pt-16 lg:pt-8 xl:pt-8 md:pt-4">
                         <li>
-                            <svg width="100%" className="softwareLogos laravel pl-2 pr-2 pt-2" xmlns="http://www.w3.org/2000/svg"
+                            <svg width="100%" className="softwareLogos laravel pl-2 pr-2 pt-2"
+                                 xmlns="http://www.w3.org/2000/svg"
                                  xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 110 30"
                                  strokeLinecap="round" strokeLinejoin="round">
                                 <use xlinkHref="#A" x=".5" y=".5"/>
@@ -80,7 +81,8 @@ const Software = () => {
                             </svg>
                         </li>
                         <li>
-                            <svg version="1.1" className="react pr-2 pl-1" width="100%" xmlns="http://www.w3.org/2000/svg"
+                            <svg version="1.1" className="react pr-2 pl-1" width="100%"
+                                 xmlns="http://www.w3.org/2000/svg"
                                  viewBox="-144.1 342.6 230.3 97" xmlSpace="preserve">
                                 <path className="st0" fill="white"
                                       d="M-144.1 390.9c0 8.1 8 15.8 20.5 20-2.5 12.6-.4 22.8 6.4 26.7 7.1 4.1 17.6 1.3 27.5-7.5 9.7 8.4 19.6 11.7 26.4 7.7 7.1-4.1 9.2-14.9 6.6-27.9 13.1-4.3 20.4-10.8 20.4-19.1 0-8-8-14.8-20.3-19.1 2.8-13.5.4-23.5-6.7-27.6-6.9-4-16.8-.5-26.7 8.1-10.3-9.1-20.1-11.9-27.3-7.8-6.9 4-8.9 14.3-6.3 27.2-12.2 4.4-20.5 11.4-20.5 19.3z"/>
