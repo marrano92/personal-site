@@ -71,7 +71,7 @@ const Software = () => {
                         </li>
                         <li>
                             <svg
-                                className="javascript pl-12 pr-12 md:pr-6 md:pl-6 lg:pt-0 lg:pr-8 lg:pl-8 xl:pr-10 xl:pl-10"
+                                className="javascript pl-16 pr-16 md:pr-6 md:pl-6 lg:pt-0 lg:pr-8 lg:pl-8 xl:pr-10 xl:pl-10"
                                 width="100%" viewBox="0 0 256 256"
                                 xmlns="http://www.w3.org/2000/svg"
                                 preserveAspectRatio="xMinYMin meet">
@@ -247,12 +247,11 @@ const Software = () => {
                         </li>
                     </ul>
                 </div>
-                <div className="pl-0 lg:pl-8 md:pl-0">
+                <div className="pl-0 ss-pt-14 lg:pl-8 md:pl-0">
                     <div className="imageSoftware">
                         <div className="image-holder hide_mobile"/>
                         <img src={ImageSoftware} alt="image description"
                              className="wow slideInRight cover-image"/>
-
                     </div>
                 </div>
             </div>

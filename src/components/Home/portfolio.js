@@ -17,16 +17,16 @@ const Portfolio = () => {
             <div
                 className="titleSoftware grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-4">
                 <div className="card mb-8 sm:mb-8 md:mb-8">
-                    <div className="title">Stranger Things</div>
+                    <div className="title-project">Stranger Things</div>
                 </div>
                 <div className="card mb-8 sm:mb-8 md:mb-8">
-                    <div className="title">Stranger Things</div>
+                    <div className="title-project">Stranger Things</div>
                 </div>
                 <div className="card mb-8 sm:mb-8 md:mb-8">
-                    <div className="title">Stranger Things</div>
+                    <div className="title-project">Stranger Things</div>
                 </div>
                 <div className="card mb-8 sm:mb-8 md:mb-8">
-                    <div className="title">Stranger Things</div>
+                    <div className="title-project">Stranger Things</div>
                 </div>
             </div>
         </div>

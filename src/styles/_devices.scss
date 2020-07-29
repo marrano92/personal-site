@@ -1,3 +1,29 @@
+/* Ultra wide screens ----------- */
+@media only screen and (min-width: 2040px) {
+	.icon {
+		height: 55px;
+		width: 55px;
+	}
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
+	.largeContainer {
+		max-width: 1550px;
+	}
+	
+	body {
+		font-size: 24px;
+	}
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width: 1440px) {
+	p {
+		font-size: 28px;
+	}
+}
+
 /* Desktops and laptops ----------- */
 @media only screen and (min-width: 1224px) {
 	/* STYLES GO HERE */
@@ -24,41 +50,33 @@
 }
 
 /* small devices (portrait) ----------- */
-@media only screen and (max-device-width: 1024px) {
+@media only screen and (max-width: 1024px) {
 	.menu__item-img {
 		width: 50vh;
 	}
-	
 	.softwareDiv {
 		padding: 0px 30px;
 	}
-	
 	body {
 		font-size: 16px;
 	}
-	
 	.social-icons.filter .home {
 		height: 20px;
 		width: 20px;
 		margin: 0px 9px;
 	}
-	
 	#nav-icon span:nth-child(1) {
 		top: 10px;
 	}
-	
 	#nav-icon span:nth-child(2) {
 		top: 19.5px;
 	}
-	
 	#nav-icon span:nth-child(3) {
 		top: 28px;
 	}
-	
 	#nav-icon.open span:nth-child(3) {
 		top: 32px;
 	}
-	
 	#nav-icon {
 		width: 30px;
 		height: 30px;
@@ -67,23 +85,18 @@
 			height: 3px;
 		}
 	}
-	
 	.homeLink {
 		font-size: 17px;
 		padding-left: 60px;
 	}
-	
 	.image-holder {
 		margin-top: 200px;
 		margin-left: -26px;
 	}
-	
 	.letter {
 		font-size: 11.5vw;
 		line-height: 9vw;
 	}
-	
-	
 	.aboutDiv {
 		padding: 0px 30px;
 	}
@@ -97,15 +110,16 @@
 		height: 30px;
 		width: 30px;
 	}
-	
 	.menu {
 		padding-left: 100px;
 	}
-	
+	.image-holder {
+		height: 240px;
+	}
 }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
 	.softwareDiv {
 		padding: 0px 15px;
 	}
@@ -153,7 +167,7 @@
 }
 
 /* iPads (landscape) ----------- */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
 	.homeLink {
 		padding-left: 15px;
 		font-size: 14px;
@@ -162,7 +176,10 @@
 }
 
 /* iPads (portrait) ----------- */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+	p {
+		font-size: 21px;
+	}
 	.homeLink {
 		font-size: 14px;
 		padding-left: 2vw;
@@ -170,148 +187,132 @@
 	}
 	.menu__item-link {
 		font-size: 8.5vw;
+		
+		.marquee span {
+			font-size: 8.5vw;
+		}
 	}
-	.menu__item-link, .marquee span {
-		font-size: 8.5vw;
+	.qlik-sense {
+		padding-left: 0.5rem !important;
+		padding-right: 0.8rem !important;
 	}
-}
-
-/* Ultra wide screens ----------- */
-@media only screen and (min-width: 2040px) {
-	.icon {
-		height: 55px;
-		width: 55px;
+	.javascript {
+		padding-left: 1.2rem !important;
+		padding-right: 1.2rem !important;
 	}
-}
-
-/* Large screens ----------- */
-@media only screen and (min-width: 1824px) {
-	.largeContainer {
-		max-width: 1550px;
+	.react {
+		padding-top: 0.5rem;
 	}
-	
-	body {
-		font-size: 24px;
+	.wordpress {
+		padding-right: 0;
+		padding-left: 0.5rem;
 	}
-}
-
-/* Large screens ----------- */
-@media only screen and (min-width: 1440px) {
 }
 
 /* iPhone 5 (portrait &amp; landscape)----------- */
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+@media only screen and (min-width: 320px) and (max-width: 568px) {
 	body {
 		font-size: 18px;
 	}
-	
 	h2 {
 		font-size: 39px;
 		line-height: 40px;
 	}
-	
 	.letter {
 		font-size: 14.5vw;
 		line-height: 12vw;
 		letter-spacing: -3px;
 	}
-	
 	.softwareDiv {
-		padding: 0px 25px;
+		padding: 0px 15px;
 	}
-	
 	.git {
 		width: 75%;
 	}
-	
 	.menu {
 		padding-left: 25px;
 	}
-	
 	.social-icons.filter.icon_menu {
 		position: absolute;
 		width: 100%;
 		bottom: 30px;
 	}
-	
 	.menu__item-link, .marquee span {
 		font-size: 3.2rem;
 	}
-	
 	.aboutDiv {
 		height: 100%;
 		display: inline-block;
-		padding: 0px 25px;
+		padding: 0px 15px;
 	}
-	
 	.softwareDiv:before {
 		margin: 2rem auto 2rem;
 	}
-	
 	.social-icons.filter .home {
 		height: 25px;
 		width: 25px;
 	}
-	
 	.program-list li {
 		width: 50%;
 		display: inline-block;
 		height: 75px;
 	}
-	
 	.homeIntroAbout {
 		display: block;
 		padding-top: 25px;
 		left: 0;
 		width: 100%;
 	}
-	
 	.socialIconsHome:before {
 		display: none;
 	}
-	
 	.rowTitle {
 		padding-left: 15px;
 	}
-	
 	.topBar {
 		height: 60px;
 	}
-	
 	.appHeader {
 		height: 100px;
 	}
-	
 	.hide_mobile {
 		display: none;
+	}
+	.homeLink {
+		display: none;
+	}
+	.pl-14 {
+		padding-left: 3.5rem;
+	}
+	.pr-14 {
+		padding-right: 3.5rem;
+	}
+	.section-heading {
+		padding: 0px 15px;
 	}
 }
 
 /* iPhone 5 (landscape)----------- */
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: landscape) {
+@media only screen and (min-width: 320px) and (max-width: 568px) and (orientation: landscape) {
 	/* STYLES GO HERE */
 }
 
 /* iPhone 5 (portrait)----------- */
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) {
+@media only screen and (min-width: 320px) and (max-width: 568px) and (orientation: portrait) {
 	.menu__item {
 		margin-bottom: 5%;
 	}
 }
 
 /* Smartphones (landscape) ----------- */
-@media only screen and (min-device-width: 320px) and (max-device-width: 900px) and (max-device-height: 380px) {
-	.homeLink {
-		display: none;
-	}
-	
+@media only screen and (min-width: 320px) and (max-width: 900px) and (max-device-height: 380px) {
 	#nav-icon {
 		margin-top: 0px;
 	}
 }
 
 /* Smartphones (portrait) ----------- */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
 	.homeLink {
 		display: none;
 	}
@@ -328,12 +329,33 @@
 	}
 }
 
-@media only screen and (max-device-width: 320px) {
+/* Smallest smartphones */
+@media only screen and (max-width: 320px) {
+	h2 {
+		font-size: 35px;
+	}
+	p {
+		font-size: 21px;
+	}
 	.icon {
 		height: 30px;
 		width: 30px;
 	}
-	h2 {
-		font-size: 35px;
+	.javascript {
+		padding-right: 2.5rem;
+		padding-left: 2.5rem;
+	}
+	.description_portfolio {
+		width: 100%;
+	}
+}
+
+/* Iphone 6/7/8 (portrait) */
+@media only screen and (min-width: 370px) and (max-width: 500px) and (orientation: portrait) {
+	.ss-pt-10 {
+		padding-top: 2.5rem;
+	}
+	.ss-pt-14 {
+		padding-top: 3.5rem;
 	}
 }

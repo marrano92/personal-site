@@ -4,7 +4,7 @@
 	position: relative;
 	left: 50%;
 	top: 50px;
-	width: 300px;
+	width: 290px;
 	height: 450px;
 	background: url('https://freefrontend.com/assets/img/css-cards/CSS-Same-Height-Cards.jpg') no-repeat center/cover;
 	border-radius: 10px;
@@ -15,14 +15,14 @@
 	&:hover {
 		transition: .5s;
 		
-		.title {
+		.title-project {
 			padding-bottom: 50px;
 			opacity: 1;
 			transition: .5s;
 		}
 	}
 	
-	.title {
+	.title-project {
 		position: absolute;
 		width: 100%;
 		bottom: 0;
@@ -35,11 +35,12 @@
 		text-align: center;
 		opacity: 0;
 		transition: .5s;
+		color: $second_color;
 	}
 }
 
 .description_portfolio {
-	width: 60%;
+	width: 75%;
 	margin: auto;
 }
 
