@@ -77,7 +77,8 @@ p{
 }
 
 .container {
-	margin: 0px auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .d-none {
@@ -129,7 +130,7 @@ p{
 	--offset: 10px;
 	--border-size: 1px;
 	margin-top: 30px;
-	font-size: 18px;
+	font-size: 14px;
 	display: block;
 	position: relative;
 	padding: 1em 1.5em;

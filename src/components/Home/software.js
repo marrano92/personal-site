@@ -5,12 +5,20 @@ import ImageSoftware from "../../images/software.webp"
 const Software = () => {
 
     return (
-        <div
-            className="softwareDiv container grid pt-32 pb-40 lg:pt-8 lg:pb-8 xl:pt-24 xl:pb-40 md:pl-8 md:pr-8 md:pt-16 largeContainer">
-            <div
-                className="titleSoftware grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-4">
+        <div className="softwareDiv container grid
+                        mt-20 pb-40
+                        md:mt-24 md:pl-8 md:pr-8
+                        lg:mt-24 lg:pb-8
+                        xl:mt-24 xl:pb-40
+                        largeContainer">
+            <div className="titleSoftware grid grid-cols-1 sm:grid-cols-1
+                            mt-20
+                            md:mt-24 md:grid-cols-2
+                            lg:mt-24 lg:grid-cols-2
+                            xl:mt-24 xl:grid-cols-2
+                            gap-4">
                 <div className="pr-0 lg:pr-6 xl:pr-8 md:pr-0">
-                    <div className="section-heading" data-wow-duration=".45s" data-wow-delay=".75s"
+                    <div className="section-heading xl:pt-20" data-wow-duration=".45s" data-wow-delay=".75s"
                          style={{
                              visibility: 'visible',
                              animationDuration: '0.45s',

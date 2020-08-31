@@ -3,8 +3,13 @@ import React from "react"
 const About = () => {
 
     return (
-        <div className="aboutDiv container largeContainer md:pl-8 md:pr-8">
-            <div className="socialLinks">
+        <div className="aboutDiv container largeContainer
+            md:pl-8 md:pr-8">
+            <div className="socialLinks
+            mb-10
+            md:mb-12
+            lg:mb-12
+            xl:mb-12">
                 <ul className="social-icons socialIconsHome filter animate__animated animate__fadeInUp">
                     <li className="icon icon-linkedin home ">
                         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100%" height="100%"

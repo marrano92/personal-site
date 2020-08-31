@@ -75,7 +75,11 @@ const Intro = () => {
     }
 
     return (
-        <div className="titleIntro container largeContainer pl-0 pr-0 pb-10 pt-0 md:pl-8 md:pr-8 md:pt-24 md:pb-16 lg:pl-10 lg:pr-10 lg:pt-32 lg:pb-24 xl:pl-8 xl:pr-8 xl:pt-32 xl:pb-24">
+        <div className="titleIntro container largeContainer
+        pl-0 pr-0 mb-20 pt-0
+        md:pl-8 md:pr-8 md:pt-24 md:mb-16
+        lg:pl-10 lg:pr-10 lg:pt-32 lg:mb-24
+        xl:pl-8 xl:pr-8 xl:pt-32 xl:mb-24">
             <div className="rowTitle row1 animate__animated animate__fadeInLeft">
                 {introTextLine1}
             </div>

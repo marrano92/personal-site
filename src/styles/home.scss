@@ -24,7 +24,7 @@
 	cursor: default !important;
 	font-size: $heightLetterIntro;
 	font-weight: 900;
-	letter-spacing: -6px;
+	letter-spacing: -9px;
 	line-height: $heightLineLetterIntro;
 	text-shadow: -20px 10px 10px rgba(0, 0, 0, 0.3),
 	0 20px 50px rgba(0, 0, 0, 0.3);
@@ -107,7 +107,6 @@ skew to change the 'thickness' of the glitch.*/
 }
 
 .homeIntroAbout {
-	padding-top: 15px;
 	float: left;
 	width: 83.3333333333%;
 	max-width: 1400px;
@@ -119,8 +118,7 @@ skew to change the 'thickness' of the glitch.*/
 
 .aboutDiv {
 	position: relative;
-	height: 300px;
-	margin-bottom: 5vh;
+	height: 307px;
 }
 
 .program-list li {
@@ -217,7 +215,7 @@ skew to change the 'thickness' of the glitch.*/
 	background-position: 50%;
 	background-repeat: repeat-x;
 	background-image: url("../images/middle.svg");
-	margin: 0px auto 10rem;
+	margin: 0px auto;
 	opacity: .15;
 }
 
