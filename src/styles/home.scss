@@ -141,7 +141,7 @@ skew to change the 'thickness' of the glitch.*/
 	height: 400px;
 	width: 90px;
 	position: absolute;
-	background-color: #1d1d1d;
+	background-color: $backgroundColor;
 	margin-top: 307px;
 	margin-left: -5px;
 }
@@ -219,4 +219,17 @@ skew to change the 'thickness' of the glitch.*/
 	background-image: url("../images/middle.svg");
 	margin: 0px auto 10rem;
 	opacity: .15;
+}
+
+.aboutDiv:before {
+	content: "‘‘";
+	position: absolute;
+	left: 0;
+	top: 0;
+	line-height: 1;
+	color: #1a1a1a;
+	transform: translate(-80%,-28%);
+	letter-spacing: -16px;
+	font-size: 400px;
+	z-index: -1;
 }

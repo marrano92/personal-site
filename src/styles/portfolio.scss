@@ -11,12 +11,13 @@
 	box-shadow: 0 10px 25px 0 rgba(black, .5);
 	transform: translateX(-50%);
 	transition: .5s;
+	cursor: pointer;
 	
 	&:hover {
 		transition: .5s;
 		
 		.title-project {
-			padding-bottom: 50px;
+			padding-bottom: 35px;
 			opacity: 1;
 			transition: .5s;
 		}
@@ -25,13 +26,15 @@
 	.title-project {
 		position: absolute;
 		width: 100%;
-		bottom: 0;
+		bottom: -2px;
 		left: 0;
-		font-size: 26px;
+		font-size: 20px;
 		font-weight: 300;
 		padding: 30px 0;
-		background: linear-gradient(to top, #000, transparent);
+		background: linear-gradient(to top, #000, #00000075);
 		text-transform: uppercase;
+		border-bottom-right-radius: 10px;
+		border-bottom-left-radius: 10px;
 		text-align: center;
 		opacity: 0;
 		transition: .5s;
@@ -39,8 +42,24 @@
 	}
 }
 
+
+#drivek{
+	background: url('https://marrifta.sirv.com/drivek.poj.png') no-repeat center/cover;
+}
+#lorenzo-dardano{
+	background: url('https://marrifta.sirv.com/lorenzo-dardano-proj.png') no-repeat center/cover;
+}
+#belvedere{
+	background: url('https://marrifta.sirv.com/hotelilbelvedere-proj') no-repeat center/cover;
+}
+#startupitalia{
+	background: url('https://marrifta.sirv.com/startupitalia-proj.png') no-repeat center/cover;
+}
 .description_portfolio {
 	width: 75%;
 	margin: auto;
 }
 
+.portfolio .button{
+	margin: 70px auto 20px;
+}

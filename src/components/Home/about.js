@@ -84,7 +84,12 @@ const About = () => {
                     In questo momento vivo a <strong className="redactor-inline-converted">Milano</strong> da circa un'anno e lavoro come sviluppatore <strong
                         className="redactor-inline-converted">Backend PHP</strong> in Motork.
                 </p>
-                <p>Scopri di più <a href="https://davidhellmann.com/about">su di me</a>.</p></div>
+                <button className="button">
+                    Scopri di più su di me
+                    <div className="button__horizontal"></div>
+                    <div className="button__vertical"></div>
+                </button>
+            </div>
         </div>
     )
 }
