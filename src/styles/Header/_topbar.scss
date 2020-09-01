@@ -107,7 +107,7 @@ a:focus {
 	padding: 100px 0px;
 	display: inline-table;
 	left: 0;
-	z-index: 11;
+	z-index: 100;
 }
 .bodyBlock{
 	overflow: hidden;
@@ -156,27 +156,31 @@ a:focus {
 .menu__item-img {
 	pointer-events: none;
 	position: absolute;
-	width: 80vh;
+	width: 70rem;
 	max-width: 1200px;
 	opacity: 0;
 	left: 100%;
-	top: 50%;
 	transform: translate3d(calc(-100% - 6vw), -30%, 0) translate3d(0, 20px, 0);
 	z-index: -1;
+	height: 50rem;
+	overflow: hidden;
+	margin: 100px auto 0;
 }
-
-.imageMenuBottom {
-	top: -200%;
+.imageHome {
+	margin: 60px auto 0;
 }
-
-.imageMenuMiddle {
-	top: -130%;
+.imageAbout {
+	margin: 20px auto 0;
 }
-
-.imageMenuTop {
-	top: -80%;
+.imageMenuSkills {
+	margin: -100px auto 0;
 }
-
+.imageMenuWork {
+	margin: -150px auto 0;
+}
+.imageMenuContact {
+	margin: -250px auto 0;
+}
 .menu__item-link:hover + .menu__item-img {
 	opacity: 0.4;
 	transform: translate3d(calc(-100% - 6vw), -26%, 0) rotate3d(0, 0, 1, 10deg);
@@ -278,15 +282,13 @@ a:focus {
 }
 
 .homeLink {
-	color: #fff;
+	color: $bodyColor;
 	line-height: 60px;
 	transition: all .25s ease-out;
 	text-transform: capitalize;
-	font-weight: 700;
 	padding-left: 36px;
-	font-family: "Source Sans Pro", sans-serif, Helvetica, Arial, sans-serif;
+	font-family: $mainFont;
 	font-size: 23px;
-	font-style: italic;
 	
 	:hover {
 		color: #fff;
@@ -302,11 +304,12 @@ a:focus {
 	width: 60px;
 	line-height: 60px;
 	background-color: $second_color;
-	color: #161616;
-	font-weight: 700;
+	color: #ffffff;
 	text-align: center;
-	font-family: "Source Sans Pro", sans-serif, Helvetica, Arial, sans-serif;
+	font-family: $mainFont;
 	font-size: 24px;
+	font-weight: bold;
+	letter-spacing: -4px;
 }
 
 .appHeader {

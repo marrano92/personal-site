@@ -15,31 +15,31 @@ const Header = () => {
             title: "Home",
             image: Image1,
             path: "/",
-            class: "menu__item-img",
+            class: "menu__item-img c-glitch imageHome",
         },
         {
             title: "About",
             image: ImageAbout,
             path: "/about",
-            class: "menu__item-img",
+            class: "menu__item-img c-glitch imageAbout",
         },
         {
             title: "Skills",
             image: ImageSkills,
             path: "/skills",
-            class: "menu__item-img imageMenuTop",
+            class: "menu__item-img c-glitch imageMenuSkills",
         },
         {
             title: "My work",
             image: ImageProject,
             path: "/my-work",
-            class: "menu__item-img imageMenuMiddle",
+            class: "menu__item-img c-glitch imageMenuWork",
         },
         {
             title: "Contact",
             image: ImageContact,
             path: "/contact",
-            class: "menu__item-img imageMenuBottom",
+            class: "menu__item-img c-glitch imageMenuContact",
         },
     ]
 
@@ -49,7 +49,13 @@ const Header = () => {
         menuItems.push(
             <div className="menu__item animate__animated animate__fadeInUp">
                 <Link to={value.path} className="menu__item-link">{value.title}</Link>
-                <img className={value.class} src={value.image} alt="Some"/>
+                <div className={value.class} style={{backgroundImage: 'url(' + value.image + ')'}}>
+                    <div className="c-glitch__img" style={{backgroundImage: 'url(' + value.image + ')'}}/>
+                    <div className="c-glitch__img" style={{backgroundImage: 'url(' + value.image + ')'}}/>
+                    <div className="c-glitch__img" style={{backgroundImage: 'url(' + value.image + ')'}}/>
+                    <div className="c-glitch__img" style={{backgroundImage: 'url(' + value.image + ')'}}/>
+                    <div className="c-glitch__img" style={{backgroundImage: 'url(' + value.image + ')'}}/>
+                </div>
                 <div className="marquee">
                     <div className="marquee__inner" aria-hidden="true">
                         <span>{value.title}</span>
@@ -66,7 +72,8 @@ const Header = () => {
         <header className="container max-w-full">
             <main>
                 <div className="menuDiv animate__animated animate__fadeInDown d-none">
-                    <nav className="menu container pl-2 pr-2 pt-4 pb-6 md:pl-10 xs:pl-2 lg:pl-14 xl:pl-16 xl:pt-24 xl:ml-24">
+                    <nav
+                        className="menu container pl-2 pr-2 pt-4 pb-6 md:pl-10 xs:pl-2 lg:pl-14 xl:pl-16 xl:pt-24 xl:ml-24">
                         {menuItems}
                     </nav>
                     <IconSocial/>

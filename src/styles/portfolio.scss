@@ -40,23 +40,48 @@
 }
 
 
-#drivek{
+#drivek {
 	background: url('https://marrifta.sirv.com/drivek.poj.png') no-repeat center/cover;
 }
-#lorenzo-dardano{
+
+#lorenzo-dardano {
 	background: url('https://marrifta.sirv.com/lorenzo-dardano-proj.png') no-repeat center/cover;
 }
-#belvedere{
+
+#belvedere {
 	background: url('https://marrifta.sirv.com/hotelilbelvedere-proj') no-repeat center/cover;
 }
-#startupitalia{
+
+#startupitalia {
 	background: url('https://marrifta.sirv.com/startupitalia-proj.png') no-repeat center/cover;
 }
+
 .description_portfolio {
 	width: 75%;
-	margin: auto;
 }
 
-.portfolio .button{
-	margin: 70px auto 20px;
+.portfolio {
+	h2 {
+		margin-left: 10%;
+		font-size: 82px;
+		line-height: 104px;
+		margin-top: 0px;
+	}
+	
+	.button {
+		margin: 70px auto 20px;
+	}
+}
+
+.portfolio:before {
+	content: "";
+	width: 132px;
+	height: 15px;
+	z-index: 10;
+	background-color: $backgroundColor;
+	background-position: 50%;
+	background-repeat: repeat-x;
+	background-image: url("../images/middle.svg");
+	margin: 0px auto;
+	opacity: .15;
 }
