@@ -38,22 +38,52 @@
 		color: $second_color;
 	}
 }
-
-
-#drivek {
-	background: url('https://marrifta.sirv.com/drivek.poj.png') no-repeat center/cover;
+.workGrid__headline {
+	transition: color .25s ease-out;
+}
+.workGrid__headline:hover {
+	transition: color .25s ease-out;
+}
+.workGrid__link:hover .section__sublineList {
+	transition: all .5s ease-out .5s;
+}
+.workGrid__link .section__sublineList {
+	transition: all .5s ease-out .5s;
+}
+.section__sublineList:before {
+	content: "";
+	display: block;
+	float: left;
+	width: 40px;
+	max-width: 210px;
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 2px;
+	background: #c0a062;
+	transition: all .25s ease-out;
 }
 
-#lorenzo-dardano {
-	background: url('https://marrifta.sirv.com/lorenzo-dardano-proj.png') no-repeat center/cover;
+.section__sublineListItem {
+	padding-top: 3px;
+	margin-bottom: 3px;
+	span{
+		color: #c0a062;
+	}
 }
-
-#belvedere {
-	background: url('https://marrifta.sirv.com/hotelilbelvedere-proj') no-repeat center/cover;
+.workGrid__link:hover .section__sublineList:before {
+	width: 80px;
+	transition: all .25s ease-out 0s;
 }
-
-#startupitalia {
-	background: url('https://marrifta.sirv.com/startupitalia-proj.png') no-repeat center/cover;
+.section__sublineList{
+	font-family: Roboto,Helvetica,Arial,sans-serif;
+	float: left;
+	width: 100%;
+	max-width: 1680px;
+	padding: 30px 0px 5px 0px;
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-decoration: none;
 }
 
 .description_portfolio {
@@ -63,9 +93,10 @@
 .portfolio {
 	h2 {
 		margin-left: 10%;
-		font-size: 82px;
-		line-height: 104px;
+		font-size: 84px;
+		line-height: 106px;
 		margin-top: 0px;
+		margin-bottom: 120px;
 	}
 	
 	.button {
@@ -82,6 +113,24 @@
 	background-position: 50%;
 	background-repeat: repeat-x;
 	background-image: url("../images/middle.svg");
-	margin: 0px auto;
+	margin-left: auto;
+	margin-right: auto;
 	opacity: .15;
+}
+
+.project-div {
+	transition: .5s ease;
+}
+
+.project-div:hover{
+	box-shadow:
+		1px 1px #212121,
+		2px 2px #212121,
+		3px 3px #212121,
+		4px 4px #212121,
+		5px 5px #212121,
+		6px 6px #212121;
+	-webkit-transform: translateX(-3px);
+	transform: translateX(-3px);
+	transition: .5s ease;
 }

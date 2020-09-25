@@ -20,8 +20,8 @@
 /* Large screens ----------- */
 @media only screen and (min-width: 1440px) {
 	p {
-		font-size: 24px;
-		line-height: 42px;
+		font-size: 22px;
+		line-height: 35px;
 	}
 	.letter {
 		font-size: 161px;
@@ -59,9 +59,6 @@
 
 /* small devices (portrait) ----------- */
 @media only screen and (max-width: 1024px) {
-	.menu__item-img {
-		width: 50vh;
-	}
 	.softwareDiv {
 		padding: 0px 30px;
 	}
@@ -118,9 +115,6 @@
 	.menu {
 		padding-left: 100px;
 	}
-	.image-holder {
-		height: 240px;
-	}
 }
 
 /* iPads (portrait and landscape) ----------- */
@@ -133,8 +127,12 @@
 		font-size: 38px;
 	}
 	.letter {
-		font-size: 13.5vw;
+		font-size: 12vw;
 		line-height: 11vw;
+	}
+	.portfolio h2{
+		font-size: 50px;
+		line-height: 65px;
 	}
 	.rowTitle {
 		padding-left: 15px;
@@ -197,6 +195,16 @@
 		padding-left: 2vw;
 		line-height: 50px;
 	}
+	.portfolio h2 {
+		font-size: 39px;
+		line-height: 55px;
+	}
+	.image-holder {
+		margin-top: 177px;
+		margin-left: -1px;
+		height: 178px;
+		width: 40px;
+	}
 	.menu__item-link {
 		font-size: 8.5vw;
 		
@@ -248,11 +256,14 @@
 		line-height: 34px;
 	}
 	.letter {
-		font-size: 14.5vw;
-		line-height: 12vw;
+		font-size: 12vw;
+		line-height: 13vw;
 		letter-spacing: -3px;
 	}
 	.softwareDiv {
+		padding: 0px 15px;
+	}
+	.portfolio {
 		padding: 0px 15px;
 	}
 	.git {
@@ -320,6 +331,11 @@
 	}
 	.button{
 		font-size: 11px;
+	}
+	.portfolio h2 {
+		margin-left: 0%;
+		font-size: 37px;
+		line-height: 50px;
 	}
 }
 

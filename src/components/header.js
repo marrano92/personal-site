@@ -18,7 +18,7 @@ const Header = () => {
             class: "menu__item-img c-glitch imageHome",
         },
         {
-            title: "About",
+            title: "Chi sono",
             image: ImageAbout,
             path: "/about",
             class: "menu__item-img c-glitch imageAbout",
@@ -30,13 +30,13 @@ const Header = () => {
             class: "menu__item-img c-glitch imageMenuSkills",
         },
         {
-            title: "My work",
+            title: "Portfolio",
             image: ImageProject,
-            path: "/my-work",
+            path: "/portfolio",
             class: "menu__item-img c-glitch imageMenuWork",
         },
         {
-            title: "Contact",
+            title: "Contatti",
             image: ImageContact,
             path: "/contact",
             class: "menu__item-img c-glitch imageMenuContact",

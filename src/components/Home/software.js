@@ -6,16 +6,16 @@ const Software = () => {
 
     return (
         <div className="softwareDiv container grid
-                        mt-20 pb-40
+                        mt-20
                         md:mt-24 md:pl-8 md:pr-8
-                        lg:mt-24 lg:pb-8
-                        xl:mt-24 xl:pb-40
+                        lg:mt-24
+                        xl:mt-24
                         largeContainer">
             <div className="titleSoftware grid grid-cols-1 sm:grid-cols-1
-                            mt-20
-                            md:mt-24 md:grid-cols-2
-                            lg:mt-24 lg:grid-cols-2
-                            xl:mt-24 xl:grid-cols-2
+                            mt-32
+                            md:mt-48 md:grid-cols-2
+                            lg:mt-56 lg:grid-cols-2
+                            xl:mt-56 xl:grid-cols-2
                             gap-4">
                 <div className="pr-0 lg:pr-6 xl:pr-8 md:pr-0">
                     <div className="section-heading xl:pt-20" data-wow-duration=".45s" data-wow-delay=".75s"
@@ -25,8 +25,9 @@ const Software = () => {
                              animationDelay: '0.75s',
                              animationName: 'fadeInUp'
                          }}><h2>Con cosa sviluppo</h2>
-                        <p>Lavoro con diversi Linguaggi di programmazione, diversi software e diversi framework,
-                            qui sotto trovate un piccolo elenco di quelli che utilizzo più spesso. </p></div>
+                        <p>
+                            Durante questi anni ho sviluppato diverse piattaforme, cercando di utilizzare le più moderne tecnologie e linguaggi disponibili.
+                        </p></div>
                     <ul className="program-list  pt-16 lg:pt-8 xl:pt-8 md:pt-4">
                         <li>
                             <svg width="100%" className="softwareLogos laravel pl-2 pr-2 pt-2"

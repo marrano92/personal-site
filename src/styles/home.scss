@@ -215,7 +215,8 @@ skew to change the 'thickness' of the glitch.*/
 	background-position: 50%;
 	background-repeat: repeat-x;
 	background-image: url("../images/middle.svg");
-	margin: 0px auto;
+	margin-left: auto;
+	margin-right: auto;
 	opacity: .15;
 }
 
@@ -230,4 +231,18 @@ skew to change the 'thickness' of the glitch.*/
 	letter-spacing: -16px;
 	font-size: 400px;
 	z-index: -1;
+}
+
+.project-div{
+	background-color: #0d0d0d;
+}
+
+/**
+Section margins in homepage
+ */
+.softwareDiv:before {
+	margin-top: 12rem;
+}
+.portfolio:before {
+	margin-top: 12rem;
 }
