@@ -6,19 +6,19 @@ const Software = () => {
 
     return (
         <div className="softwareDiv container grid
-                        mt-20
-                        md:mt-24 md:pl-8 md:pr-8
-                        lg:mt-24
+                        mt-0
+                        md:mt-4 md:pl-8 md:pr-8
+                        lg:mt-10
                         xl:mt-24
                         largeContainer">
             <div className="titleSoftware grid grid-cols-1 sm:grid-cols-1
-                            mt-32
+                            mt-16
                             md:mt-48 md:grid-cols-2
                             lg:mt-56 lg:grid-cols-2
                             xl:mt-56 xl:grid-cols-2
                             gap-4">
                 <div className="pr-0 lg:pr-6 xl:pr-8 md:pr-0">
-                    <div className="section-heading xl:pt-20" data-wow-duration=".45s" data-wow-delay=".75s"
+                    <div className="section-heading md:pt-8 lg:pt-0 xl:pt-16" data-wow-duration=".45s" data-wow-delay=".75s"
                          style={{
                              visibility: 'visible',
                              animationDuration: '0.45s',

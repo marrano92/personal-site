@@ -25,7 +25,7 @@ const Portfolio = () => {
     return (
         <div className="container grid portfolio pb-40 lg:pb-8 xl:pb-40 md:pl-8 md:pr-8 largeContainer">
             <div className="section-heading  text-left
-            mt-32
+                 mt-16
                  md:mt-48
                  lg:mt-56
                  xl:mt-56">
@@ -44,7 +44,8 @@ const Portfolio = () => {
                             <h3 className="workGrid__headline">{value.title}</h3>
                             <div className="section__subline">
                                 <ul className="section__sublineList">
-                                    <li className="section__sublineListItem mt-4 md:mt-4"><span>Anno - </span> {value.anno}
+                                    <li className="section__sublineListItem mt-4 md:mt-4">
+                                        <span>Anno - </span> {value.anno}
                                     </li>
                                     <li className="section__sublineListItem">
                                         <span>Azienda - </span> {value.azienda}

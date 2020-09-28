@@ -8,20 +8,23 @@
 
 /* Large screens ----------- */
 @media only screen and (min-width: 1824px) {
-	.largeContainer {
-		max-width: 1550px;
-	}
-	
 	body {
 		font-size: 24px;
 	}
+	.largeContainer {
+		max-width: 1550px;
+	}
+	.portfolio {
+		max-width: 1600px;
+	}
+	
 }
 
 /* Large screens ----------- */
 @media only screen and (min-width: 1440px) {
 	p {
-		font-size: 22px;
-		line-height: 35px;
+		font-size: 29px;
+		line-height: 39px;
 	}
 	.letter {
 		font-size: 161px;
@@ -29,6 +32,9 @@
 	}
 	.titleIntro.container.largeContainer {
 		padding-left: 0px;
+	}
+	.portfolio {
+		max-width: 90%;
 	}
 }
 
@@ -130,9 +136,10 @@
 		font-size: 12vw;
 		line-height: 11vw;
 	}
-	.portfolio h2{
-		font-size: 50px;
-		line-height: 65px;
+	.portfolio h2 {
+		font-size: 65px;
+		line-height: 80px;
+		margin-bottom: 40px;
 	}
 	.rowTitle {
 		padding-left: 15px;
@@ -167,8 +174,12 @@
 	.aboutDiv {
 		height: 290px;
 	}
-	.button{
+	.button {
 		font-size: 9px;
+	}
+	h3 {
+		font-size: 21px;
+		line-height: 32px;
 	}
 }
 
@@ -196,8 +207,8 @@
 		line-height: 50px;
 	}
 	.portfolio h2 {
-		font-size: 39px;
-		line-height: 55px;
+		font-size: 50px;
+		line-height: 75px;
 	}
 	.image-holder {
 		margin-top: 177px;
@@ -206,11 +217,12 @@
 		width: 40px;
 	}
 	.menu__item-link {
-		font-size: 8.5vw;
-		
 		.marquee span {
 			font-size: 8.5vw;
 		}
+	}
+	.menu {
+		--item-font-size: 8.5vw;
 	}
 	.qlik-sense {
 		padding-left: 0.5rem !important;
@@ -240,6 +252,10 @@
 	.aboutDiv {
 		height: 270px;
 	}
+	h3 {
+		font-size: 24px;
+		line-height: 35px;
+	}
 }
 
 /* iPhone 5 (portrait &amp; landscape)----------- */
@@ -265,6 +281,13 @@
 	}
 	.portfolio {
 		padding: 0px 15px;
+		
+		h2 {
+			margin-left: 0%;
+			font-size: 43px;
+			line-height: 65px;
+			margin-bottom: 40px;
+		}
 	}
 	.git {
 		width: 75%;
@@ -325,17 +348,26 @@
 	}
 	.section-heading {
 		padding: 0px;
+		
 		h2 {
 			margin-top: 0px;
 		}
 	}
-	.button{
+	.button {
 		font-size: 11px;
 	}
-	.portfolio h2 {
-		margin-left: 0%;
-		font-size: 37px;
-		line-height: 50px;
+	.softwareDiv:before {
+		margin-top: 4rem;
+	}
+	.portfolio:before {
+		margin-top: 4rem;
+	}
+	h3 {
+		font-size: 29px;
+		line-height: 44px;
+	}
+	.menu__item-img {
+		max-width: 100%;
 	}
 }
 
@@ -398,6 +430,16 @@
 	}
 	.aboutDiv {
 		height: 591px;
+	}
+	.portfolio {
+		h2 {
+			font-size: 33px;
+			line-height: 40px;
+		}
+	}
+	h3 {
+		font-size: 21px;
+		line-height: 35px;
 	}
 }
 

@@ -73,7 +73,12 @@ const Header = () => {
             <main>
                 <div className="menuDiv animate__animated animate__fadeInDown d-none">
                     <nav
-                        className="menu container pl-2 pr-2 pt-4 pb-6 md:pl-10 xs:pl-2 lg:pl-14 xl:pl-16 xl:pt-24 xl:ml-24">
+                        className="menu container
+                        pl-2 pr-2 pt-4 pb-6
+                        xs:pl-2
+                        md:pl-10 md:pt-20
+                        lg:pl-14 lg:pt-16
+                        xl:pl-16 xl:pt-24 xl:ml-24">
                         {menuItems}
                     </nav>
                     <IconSocial/>
