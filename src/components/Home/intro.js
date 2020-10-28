@@ -2,8 +2,8 @@ import React from "react"
 
 const Intro = () => {
     var introLettersLine1 = "B a c k - e n d / P H P";
-    var introLettersLine2 = "W o r d p r e s s / W e b";
-    var introLettersLine3 = "D e v e l o p e r";
+    var introLettersLine2 = "W o r d p r e s s";
+    var introLettersLine3 = "W e b / D e v e l o p e r";
 
     var introLettersArray = introLettersLine1.split(" ");
     const introTextLine1 = []
